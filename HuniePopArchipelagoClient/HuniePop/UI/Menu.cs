@@ -155,7 +155,7 @@ namespace HuniePopArchiepelagoClient.UI
                 {
                     if (savedlist.host == "")
                     {
-                        if (GUI.Button(new Rect((archsaverect1.width / 2) - (archsaverect1.width / 6), 5 * (archsaverect1.height / 6), archsaverect1.width / 3, archsaverect1.height / 6), "EDIT"))
+                        if (GUI.Button(new Rect((archsaverect1.width / 2) - (archsaverect1.width / 6), 5 * (archsaverect1.height / 6), archsaverect1.width / 3, archsaverect1.height / 6), "EDIT\nCONNECTION"))
                         {
                             slot = id - 101;
                             newgame = true;
@@ -173,7 +173,7 @@ namespace HuniePopArchiepelagoClient.UI
                                 Plugin.curse.connect();
                             }
                         }
-                        if (GUI.Button(new Rect((archsaverect1.width / 2) + (archsaverect1.width / 8), 5 * (archsaverect1.height / 6), archsaverect1.width / 4, archsaverect1.height / 6), "Edit"))
+                        if (GUI.Button(new Rect((archsaverect1.width / 2) + (archsaverect1.width / 8), 5 * (archsaverect1.height / 6), archsaverect1.width / 4, archsaverect1.height / 6), "Edit\nConnection"))
                         {
                             slot = id - 101;
                             newgame = true;
