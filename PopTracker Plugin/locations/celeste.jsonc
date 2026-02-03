@@ -1,0 +1,863 @@
+[
+    {
+        "name": "celeste Date 1",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "330",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste Date 1",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste Date 2",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "415",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste Date 2",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste Date 3",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "500",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste Date 3",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste Date 4",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "585",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste Date 4",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "received celeste's panties",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "670",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste panties",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    }    ,
+    {
+        "name": "celeste's Last Name",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "50",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Last Name",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Age",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "300",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Age",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Homeworld",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "550",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Homeworld",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Height",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "50",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Height",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Weight",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "300",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Weight",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Occupation",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "550",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Occupation",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Cup Size",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "50",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Cup Size",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Birthday",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "300",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Birthday",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Hobby",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "550",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Hobby",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Favourite Color",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "50",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Favourite Color",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Favourite Season",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "300",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Favourite Season",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "celeste's Favourite Hangout",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "550",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "celeste's Favourite Hangout",
+                "access_rules": [
+                    "Unlock Girl(celeste)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Swimmers Cap",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "875",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Swimmers Cap",
+                "access_rules": [
+                    "Unlock Girl(celeste),Swimmers Cap"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Goggles",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "995",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Goggles",
+                "access_rules": [
+                    "Unlock Girl(celeste),Goggles"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Snorkel",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1115",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Snorkel",
+                "access_rules": [
+                    "Unlock Girl(celeste),Snorkel"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Flippers",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1235",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Flippers",
+                "access_rules": [
+                    "Unlock Girl(celeste),Flippers"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Lifesaver",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1355",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Lifesaver",
+                "access_rules": [
+                    "Unlock Girl(celeste),Lifesaver"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Diving Tank",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1475",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Diving Tank",
+                "access_rules": [
+                    "Unlock Girl(celeste),Diving Tank"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Decorative Pens",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "875",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Decorative Pens",
+                "access_rules": [
+                    "Unlock Girl(celeste),Decorative Pens"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Glossy Notebook",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "995",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Glossy Notebook",
+                "access_rules": [
+                    "Unlock Girl(celeste),Glossy Notebook"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Graduation Cap",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1115",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Graduation Cap",
+                "access_rules": [
+                    "Unlock Girl(celeste),Graduation Cap"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Textbooks",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1235",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Textbooks",
+                "access_rules": [
+                    "Unlock Girl(celeste),Textbooks"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Girly Backpack",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1355",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Girly Backpack",
+                "access_rules": [
+                    "Unlock Girl(celeste),Girly Backpack"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Laptop Pro",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1475",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Laptop Pro",
+                "access_rules": [
+                    "Unlock Girl(celeste),Laptop Pro"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Water Bottle",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "875",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Water Bottle",
+                "access_rules": [
+                    "Unlock Girl(celeste),Water Bottle"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Cardio Weights",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "995",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Cardio Weights",
+                "access_rules": [
+                    "Unlock Girl(celeste),Cardio Weights"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Skipping Rope",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1115",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Skipping Rope",
+                "access_rules": [
+                    "Unlock Girl(celeste),Skipping Rope"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Kettle Bell",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1235",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Kettle Bell",
+                "access_rules": [
+                    "Unlock Girl(celeste),Kettle Bell"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Boxing Gloves",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1355",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Boxing Gloves",
+                "access_rules": [
+                    "Unlock Girl(celeste),Boxing Gloves"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Punching Bag",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1475",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Punching Bag",
+                "access_rules": [
+                    "Unlock Girl(celeste),Punching Bag"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Model Rocket",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "875",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Model Rocket",
+                "access_rules": [
+                    "Unlock Girl(celeste),Model Rocket"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Miniature UFO",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "995",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Miniature UFO",
+                "access_rules": [
+                    "Unlock Girl(celeste),Miniature UFO"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Armillary Sphere",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1115",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Armillary Sphere",
+                "access_rules": [
+                    "Unlock Girl(celeste),Armillary Sphere"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Telescope",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1235",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Telescope",
+                "access_rules": [
+                    "Unlock Girl(celeste),Telescope"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Space Helmet",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1355",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Space Helmet",
+                "access_rules": [
+                    "Unlock Girl(celeste),Space Helmet"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift celeste Moonrock",
+        "map_locations": [
+            {
+                "map": "celeste",
+                "x": "1475",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift celeste Moonrock",
+                "access_rules": [
+                    "Unlock Girl(celeste),Moonrock"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    }
+]

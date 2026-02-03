@@ -1,0 +1,43 @@
+{
+    "girl_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "hoizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "Unlock Girl(tiffany)",
+                                "Unlock Girl(aiko)",
+                                "Unlock Girl(kyanna)"
+                            ],
+                            [
+                                "Unlock Girl(audrey)",
+                                "Unlock Girl(lola)",
+                                "Unlock Girl(nikki)"
+                            ],
+                            [
+                                "Unlock Girl(jessie)",
+                                "Unlock Girl(beli)",
+                                "Unlock Girl(kyu)"
+                            ],
+                            [
+                                "Unlock Girl(momo)",
+                                "Unlock Girl(celeste)",
+                                "Unlock Girl(venus)"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

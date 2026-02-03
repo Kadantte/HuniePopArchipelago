@@ -1,0 +1,39 @@
+{
+    "misc_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "hoizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "tiffany's panties",
+                                "aiko's panties",
+                                "kyanna's panties",
+                                "audrey's panties",
+                                "lola's panties",
+                                "nikki's panties"
+                            ],
+                            [
+                                "jessie's panties",
+                                "beli's panties",
+                                "kyu's panties",
+                                "momo's panties",
+                                "celeste's panties",
+                                "venus's panties"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

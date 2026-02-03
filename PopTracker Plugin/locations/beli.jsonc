@@ -1,0 +1,863 @@
+[
+    {
+        "name": "beli Date 1",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "330",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli Date 1",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli Date 2",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "415",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli Date 2",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli Date 3",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "500",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli Date 3",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli Date 4",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "585",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli Date 4",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "received beli's panties",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "670",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli panties",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    }    ,
+    {
+        "name": "beli's Last Name",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "50",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Last Name",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Age",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "300",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Age",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Education",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "550",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Education",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Height",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "50",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Height",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Weight",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "300",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Weight",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Occupation",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "550",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Occupation",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Cup Size",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "50",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Cup Size",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Birthday",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "300",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Birthday",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Hobby",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "550",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Hobby",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Favourite Color",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "50",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Favourite Color",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Favourite Season",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "300",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Favourite Season",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "beli's Favourite Hangout",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "550",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "beli's Favourite Hangout",
+                "access_rules": [
+                    "Unlock Girl(beli)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Yoga Belt",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "875",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Yoga Belt",
+                "access_rules": [
+                    "Unlock Girl(beli),Yoga Belt"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Yoga Blocks",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "995",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Yoga Blocks",
+                "access_rules": [
+                    "Unlock Girl(beli),Yoga Blocks"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Yoga Bag",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1115",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Yoga Bag",
+                "access_rules": [
+                    "Unlock Girl(beli),Yoga Bag"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Yoga Mat",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1235",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Yoga Mat",
+                "access_rules": [
+                    "Unlock Girl(beli),Yoga Mat"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Yoga Ball",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1355",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Yoga Ball",
+                "access_rules": [
+                    "Unlock Girl(beli),Yoga Ball"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Yoga Outfit",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1475",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Yoga Outfit",
+                "access_rules": [
+                    "Unlock Girl(beli),Yoga Outfit"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Tennis Balls",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "875",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Tennis Balls",
+                "access_rules": [
+                    "Unlock Girl(beli),Tennis Balls"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Tennis Racket",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "995",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Tennis Racket",
+                "access_rules": [
+                    "Unlock Girl(beli),Tennis Racket"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Flying Disc",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1115",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Flying Disc",
+                "access_rules": [
+                    "Unlock Girl(beli),Flying Disc"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Basket Ball",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1235",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Basket Ball",
+                "access_rules": [
+                    "Unlock Girl(beli),Basket Ball"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Volley Ball",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1355",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Volley Ball",
+                "access_rules": [
+                    "Unlock Girl(beli),Volley Ball"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Soccer Ball",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1475",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Soccer Ball",
+                "access_rules": [
+                    "Unlock Girl(beli),Soccer Ball"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Flower Seeds",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "875",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Flower Seeds",
+                "access_rules": [
+                    "Unlock Girl(beli),Flower Seeds"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Garden Shovel",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "995",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Garden Shovel",
+                "access_rules": [
+                    "Unlock Girl(beli),Garden Shovel"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Flower Pots",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1115",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Flower Pots",
+                "access_rules": [
+                    "Unlock Girl(beli),Flower Pots"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Watering Can",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1235",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Watering Can",
+                "access_rules": [
+                    "Unlock Girl(beli),Watering Can"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Garden Gnome",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1355",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Garden Gnome",
+                "access_rules": [
+                    "Unlock Girl(beli),Garden Gnome"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Wooden Birdhouse",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1475",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Wooden Birdhouse",
+                "access_rules": [
+                    "Unlock Girl(beli),Wooden Birdhouse"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Acorns",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "875",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Acorns",
+                "access_rules": [
+                    "Unlock Girl(beli),Acorns"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Maple Leaf",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "995",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Maple Leaf",
+                "access_rules": [
+                    "Unlock Girl(beli),Maple Leaf"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Pinecone",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1115",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Pinecone",
+                "access_rules": [
+                    "Unlock Girl(beli),Pinecone"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Mushrooms",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1235",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Mushrooms",
+                "access_rules": [
+                    "Unlock Girl(beli),Mushrooms"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Seashell",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1355",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Seashell",
+                "access_rules": [
+                    "Unlock Girl(beli),Seashell"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift beli Four Leaf Clover",
+        "map_locations": [
+            {
+                "map": "beli",
+                "x": "1475",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift beli Four Leaf Clover",
+                "access_rules": [
+                    "Unlock Girl(beli),Four Leaf Clover"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    }
+]

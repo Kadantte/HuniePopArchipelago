@@ -1,0 +1,140 @@
+{
+    "gift1_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "hoizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "Decorative Pens",
+                                "Glossy Notebook",
+                                "Graduation Cap",
+                                "Textbooks",
+                                "Girly Backpack",
+                                "Laptop Pro"
+                            ],
+                            [
+                                "Old Fashioned Yoyo",
+                                "Puzzle Cube",
+                                "Sudoku Books",
+                                "Dart Board",
+                                "Board Game",
+                                "Chess Set"
+                            ],
+                            [
+                                "Water Bottle",
+                                "Cardio Weights",
+                                "Skipping Rope",
+                                "Kettle Bell",
+                                "Boxing Gloves",
+                                "Punching Bag"
+                            ],
+                            [
+                                "Baby Binky",
+                                "Bead Bracelet",
+                                "Glow Sticks",
+                                "Rainbow Wig",
+                                "Fuzzy Boots",
+                                "Fairy Wings"
+                            ],
+                            [
+                                "Tennis Balls",
+                                "Tennis Racket",
+                                "Flying Disc",
+                                "Basket Ball",
+                                "Volley Ball",
+                                "Soccer Ball"
+                            ],
+                            [
+                                "Sketching Pencils",
+                                "Paint Brushes",
+                                "Drawing Mannequin",
+                                "Sketch Pad",
+                                "Paint Palette",
+                                "Canvas & Easel"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "gift2_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "hoizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "Baking Utensils",
+                                "Measuring Cup",
+                                "Rolling Pin",
+                                "Oven Timer",
+                                "Mixing Bowl",
+                                "Oven Mitts"
+                            ],
+                            [
+                                "Yoga Belt",
+                                "Yoga Blocks",
+                                "Yoga Bag",
+                                "Yoga Mat",
+                                "Yoga Ball",
+                                "Yoga Outfit"
+                            ],
+                            [
+                                "Tango Rose",
+                                "Sweatbands",
+                                "Leg Warmers",
+                                "Dancing Fan",
+                                "Pink Tutu",
+                                "Stripper Pole"
+                            ],
+                            [
+                                "Synthetic Seaweed",
+                                "Synthetic Coral",
+                                "Tank Gravel",
+                                "Bag of Goldfish",
+                                "Fishy Castle",
+                                "Fish Tank"
+                            ],
+                            [
+                                "Swimmers Cap",
+                                "Goggles",
+                                "Snorkel",
+                                "Flippers",
+                                "Lifesaver",
+                                "Diving Tank"
+                            ],
+                            [
+                                "Flower Seeds",
+                                "Garden Shovel",
+                                "Flower Pots",
+                                "Watering Can",
+                                "Garden Gnome",
+                                "Wooden Birdhouse"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

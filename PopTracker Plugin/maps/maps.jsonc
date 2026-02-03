@@ -1,0 +1,74 @@
+[
+  {
+    "name": "tiffany",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/tiffany.png"
+  },
+  {
+    "name": "aiko",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/aiko.png"
+  },
+  {
+    "name": "kyanna",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/kyanna.png"
+  },
+  {
+    "name": "audrey",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/audrey.png"
+  },
+  {
+    "name": "lola",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/lola.png"
+  },
+  {
+    "name": "nikki",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/nikki.png"
+  },
+  {
+    "name": "jessie",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/jessie.png"
+  },
+  {
+    "name": "beli",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/beli.png"
+  },
+  {
+    "name": "kyu",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/kyu.png"
+  },
+  {
+    "name": "momo",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/momo.png"
+  },
+  {
+    "name": "celeste",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/celeste.png"
+  },
+  {
+    "name": "venus",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/venus.png"
+  }
+]

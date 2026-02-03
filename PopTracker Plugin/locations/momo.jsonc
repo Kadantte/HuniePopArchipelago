@@ -1,0 +1,863 @@
+[
+    {
+        "name": "momo Date 1",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "330",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo Date 1",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo Date 2",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "415",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo Date 2",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo Date 3",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "500",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo Date 3",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo Date 4",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "585",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo Date 4",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "received momo's panties",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "670",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo panties",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    }    ,
+    {
+        "name": "momo's Last Name",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "50",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Last Name",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Age",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "300",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Age",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Homeworld",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "550",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Homeworld",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Height",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "50",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Height",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Weight",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "300",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Weight",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Occupation",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "550",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Occupation",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Cup Size",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "50",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Cup Size",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Birthday",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "300",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Birthday",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Hobby",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "550",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Hobby",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Favourite Color",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "50",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Favourite Color",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Favourite Season",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "300",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Favourite Season",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "momo's Favourite Hangout",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "550",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "momo's Favourite Hangout",
+                "access_rules": [
+                    "Unlock Girl(momo)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Synthetic Seaweed",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "875",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Synthetic Seaweed",
+                "access_rules": [
+                    "Unlock Girl(momo),Synthetic Seaweed"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Synthetic Coral",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "995",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Synthetic Coral",
+                "access_rules": [
+                    "Unlock Girl(momo),Synthetic Coral"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Tank Gravel",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1115",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Tank Gravel",
+                "access_rules": [
+                    "Unlock Girl(momo),Tank Gravel"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Bag of Goldfish",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1235",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Bag of Goldfish",
+                "access_rules": [
+                    "Unlock Girl(momo),Bag of Goldfish"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Fishy Castle",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1355",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Fishy Castle",
+                "access_rules": [
+                    "Unlock Girl(momo),Fishy Castle"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Fish Tank",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1475",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Fish Tank",
+                "access_rules": [
+                    "Unlock Girl(momo),Fish Tank"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Old Fashioned Yoyo",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "875",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Old Fashioned Yoyo",
+                "access_rules": [
+                    "Unlock Girl(momo),Old Fashioned Yoyo"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Puzzle Cube",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "995",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Puzzle Cube",
+                "access_rules": [
+                    "Unlock Girl(momo),Puzzle Cube"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Sudoku Books",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1115",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Sudoku Books",
+                "access_rules": [
+                    "Unlock Girl(momo),Sudoku Books"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Dart Board",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1235",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Dart Board",
+                "access_rules": [
+                    "Unlock Girl(momo),Dart Board"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Board Game",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1355",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Board Game",
+                "access_rules": [
+                    "Unlock Girl(momo),Board Game"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Chess Set",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1475",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Chess Set",
+                "access_rules": [
+                    "Unlock Girl(momo),Chess Set"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Tennis Balls",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "875",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Tennis Balls",
+                "access_rules": [
+                    "Unlock Girl(momo),Tennis Balls"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Tennis Racket",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "995",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Tennis Racket",
+                "access_rules": [
+                    "Unlock Girl(momo),Tennis Racket"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Flying Disc",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1115",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Flying Disc",
+                "access_rules": [
+                    "Unlock Girl(momo),Flying Disc"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Basket Ball",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1235",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Basket Ball",
+                "access_rules": [
+                    "Unlock Girl(momo),Basket Ball"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Volley Ball",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1355",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Volley Ball",
+                "access_rules": [
+                    "Unlock Girl(momo),Volley Ball"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Soccer Ball",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1475",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Soccer Ball",
+                "access_rules": [
+                    "Unlock Girl(momo),Soccer Ball"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Ball of Yarn",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "875",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Ball of Yarn",
+                "access_rules": [
+                    "Unlock Girl(momo),Ball of Yarn"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Lattice Ball",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "995",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Lattice Ball",
+                "access_rules": [
+                    "Unlock Girl(momo),Lattice Ball"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Squeaky Mouse",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1115",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Squeaky Mouse",
+                "access_rules": [
+                    "Unlock Girl(momo),Squeaky Mouse"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Feather Pole",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1235",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Feather Pole",
+                "access_rules": [
+                    "Unlock Girl(momo),Feather Pole"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Laser Pointer",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1355",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Laser Pointer",
+                "access_rules": [
+                    "Unlock Girl(momo),Laser Pointer"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift momo Scratch Post",
+        "map_locations": [
+            {
+                "map": "momo",
+                "x": "1475",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift momo Scratch Post",
+                "access_rules": [
+                    "Unlock Girl(momo),Scratch Post"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    }
+]

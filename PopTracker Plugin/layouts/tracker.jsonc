@@ -1,0 +1,205 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Girls",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "girl_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Gifts",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "gift1_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "gift2_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Unique Gifts",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "ugift1_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "ugift2_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Misc",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "misc_grid"
+              }
+            },
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+                "title": "tiffany",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "tiffany"
+                    ]
+                }
+            },
+            {
+                "title": "aiko",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "aiko"
+                    ]
+                }
+            },
+            {
+                "title": "kyanna",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "kyanna"
+                    ]
+                }
+            },
+            {
+                "title": "audrey",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "audrey"
+                    ]
+                }
+            },
+            {
+                "title": "lola",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "lola"
+                    ]
+                }
+            },
+            {
+                "title": "nikki",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "nikki"
+                    ]
+                }
+            },
+            {
+                "title": "jessie",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "jessie"
+                    ]
+                }
+            },
+            {
+                "title": "beli",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "beli"
+                    ]
+                }
+            },
+            {
+                "title": "kyu",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "kyu"
+                    ]
+                }
+            },
+            {
+                "title": "momo",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "momo"
+                    ]
+                }
+            },
+            {
+                "title": "celeste",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "celeste"
+                    ]
+                }
+            },
+            {
+                "title": "venus",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "venus"
+                    ]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

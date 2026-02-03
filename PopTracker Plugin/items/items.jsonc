@@ -1,0 +1,1059 @@
+[
+    {
+      "name": "tiffany's panties",
+      "type": "toggle",
+      "img": "images/items/panties/1.png",
+      "codes":"tiffany's panties"
+    },
+    {
+      "name": "aiko's panties",
+      "type": "toggle",
+      "img": "images/items/panties/2.png",
+      "codes":"aiko's panties"
+    },
+    {
+      "name": "kyanna's panties",
+      "type": "toggle",
+      "img": "images/items/panties/3.png",
+      "codes":"kyanna's panties"
+    },
+    {
+      "name": "audrey's panties",
+      "type": "toggle",
+      "img": "images/items/panties/4.png",
+      "codes":"audrey's panties"
+    },
+    {
+      "name": "lola's panties",
+      "type": "toggle",
+      "img": "images/items/panties/5.png",
+      "codes":"lola's panties"
+    },
+    {
+      "name": "nikki's panties",
+      "type": "toggle",
+      "img": "images/items/panties/6.png",
+      "codes":"nikki's panties"
+    },
+    {
+      "name": "jessie's panties",
+      "type": "toggle",
+      "img": "images/items/panties/7.png",
+      "codes":"jessie's panties"
+    },
+    {
+      "name": "beli's panties",
+      "type": "toggle",
+      "img": "images/items/panties/8.png",
+      "codes":"beli's panties"
+    },
+    {
+      "name": "kyu's panties",
+      "type": "toggle",
+      "img": "images/items/panties/9.png",
+      "codes":"kyu's panties"
+    },
+    {
+      "name": "momo's panties",
+      "type": "toggle",
+      "img": "images/items/panties/10.png",
+      "codes":"momo's panties"
+    },
+    {
+      "name": "celeste's panties",
+      "type": "toggle",
+      "img": "images/items/panties/11.png",
+      "codes":"celeste's panties"
+    },
+    {
+      "name": "venus's panties",
+      "type": "toggle",
+      "img": "images/items/panties/12.png",
+      "codes":"venus's panties"
+    },
+    {
+      "name": "Unlock Girl(tiffany)",
+      "type": "toggle",
+      "img": "images/items/girls/1.png",
+      "codes":"Unlock Girl(tiffany)"
+    },
+    {
+      "name": "Unlock Girl(aiko)",
+      "type": "toggle",
+      "img": "images/items/girls/2.png",
+      "codes":"Unlock Girl(aiko)"
+    },
+    {
+      "name": "Unlock Girl(kyanna)",
+      "type": "toggle",
+      "img": "images/items/girls/3.png",
+      "codes":"Unlock Girl(kyanna)"
+    },
+    {
+      "name": "Unlock Girl(audrey)",
+      "type": "toggle",
+      "img": "images/items/girls/4.png",
+      "codes":"Unlock Girl(audrey)"
+    },
+    {
+      "name": "Unlock Girl(lola)",
+      "type": "toggle",
+      "img": "images/items/girls/5.png",
+      "codes":"Unlock Girl(lola)"
+    },
+    {
+      "name": "Unlock Girl(nikki)",
+      "type": "toggle",
+      "img": "images/items/girls/6.png",
+      "codes":"Unlock Girl(nikki)"
+    },
+    {
+      "name": "Unlock Girl(jessie)",
+      "type": "toggle",
+      "img": "images/items/girls/7.png",
+      "codes":"Unlock Girl(jessie)"
+    },
+    {
+      "name": "Unlock Girl(beli)",
+      "type": "toggle",
+      "img": "images/items/girls/8.png",
+      "codes":"Unlock Girl(beli)"
+    },
+    {
+      "name": "Unlock Girl(kyu)",
+      "type": "toggle",
+      "img": "images/items/girls/9.png",
+      "codes":"Unlock Girl(kyu)"
+    },
+    {
+      "name": "Unlock Girl(momo)",
+      "type": "toggle",
+      "img": "images/items/girls/10.png",
+      "codes":"Unlock Girl(momo)"
+    },
+    {
+      "name": "Unlock Girl(celeste)",
+      "type": "toggle",
+      "img": "images/items/girls/11.png",
+      "codes":"Unlock Girl(celeste)"
+    },
+    {
+      "name": "Unlock Girl(venus)",
+      "type": "toggle",
+      "img": "images/items/girls/12.png",
+      "codes":"Unlock Girl(venus)"
+    },
+    {
+      "name": "Decorative Pens",
+      "type": "toggle",
+      "img": "images/items/gifts/1.png",
+      "codes":"Decorative Pens"
+    },
+    {
+      "name": "Glossy Notebook",
+      "type": "toggle",
+      "img": "images/items/gifts/2.png",
+      "codes":"Glossy Notebook"
+    },
+    {
+      "name": "Graduation Cap",
+      "type": "toggle",
+      "img": "images/items/gifts/3.png",
+      "codes":"Graduation Cap"
+    },
+    {
+      "name": "Textbooks",
+      "type": "toggle",
+      "img": "images/items/gifts/4.png",
+      "codes":"Textbooks"
+    },
+    {
+      "name": "Girly Backpack",
+      "type": "toggle",
+      "img": "images/items/gifts/5.png",
+      "codes":"Girly Backpack"
+    },
+    {
+      "name": "Laptop Pro",
+      "type": "toggle",
+      "img": "images/items/gifts/6.png",
+      "codes":"Laptop Pro"
+    },
+    {
+      "name": "Old Fashioned Yoyo",
+      "type": "toggle",
+      "img": "images/items/gifts/7.png",
+      "codes":"Old Fashioned Yoyo"
+    },
+    {
+      "name": "Puzzle Cube",
+      "type": "toggle",
+      "img": "images/items/gifts/8.png",
+      "codes":"Puzzle Cube"
+    },
+    {
+      "name": "Sudoku Books",
+      "type": "toggle",
+      "img": "images/items/gifts/9.png",
+      "codes":"Sudoku Books"
+    },
+    {
+      "name": "Dart Board",
+      "type": "toggle",
+      "img": "images/items/gifts/10.png",
+      "codes":"Dart Board"
+    },
+    {
+      "name": "Board Game",
+      "type": "toggle",
+      "img": "images/items/gifts/11.png",
+      "codes":"Board Game"
+    },
+    {
+      "name": "Chess Set",
+      "type": "toggle",
+      "img": "images/items/gifts/12.png",
+      "codes":"Chess Set"
+    },
+    {
+      "name": "Water Bottle",
+      "type": "toggle",
+      "img": "images/items/gifts/13.png",
+      "codes":"Water Bottle"
+    },
+    {
+      "name": "Cardio Weights",
+      "type": "toggle",
+      "img": "images/items/gifts/14.png",
+      "codes":"Cardio Weights"
+    },
+    {
+      "name": "Skipping Rope",
+      "type": "toggle",
+      "img": "images/items/gifts/15.png",
+      "codes":"Skipping Rope"
+    },
+    {
+      "name": "Kettle Bell",
+      "type": "toggle",
+      "img": "images/items/gifts/16.png",
+      "codes":"Kettle Bell"
+    },
+    {
+      "name": "Boxing Gloves",
+      "type": "toggle",
+      "img": "images/items/gifts/17.png",
+      "codes":"Boxing Gloves"
+    },
+    {
+      "name": "Punching Bag",
+      "type": "toggle",
+      "img": "images/items/gifts/18.png",
+      "codes":"Punching Bag"
+    },
+    {
+      "name": "Baby Binky",
+      "type": "toggle",
+      "img": "images/items/gifts/19.png",
+      "codes":"Baby Binky"
+    },
+    {
+      "name": "Bead Bracelet",
+      "type": "toggle",
+      "img": "images/items/gifts/20.png",
+      "codes":"Bead Bracelet"
+    },
+    {
+      "name": "Glow Sticks",
+      "type": "toggle",
+      "img": "images/items/gifts/21.png",
+      "codes":"Glow Sticks"
+    },
+    {
+      "name": "Rainbow Wig",
+      "type": "toggle",
+      "img": "images/items/gifts/22.png",
+      "codes":"Rainbow Wig"
+    },
+    {
+      "name": "Fuzzy Boots",
+      "type": "toggle",
+      "img": "images/items/gifts/23.png",
+      "codes":"Fuzzy Boots"
+    },
+    {
+      "name": "Fairy Wings",
+      "type": "toggle",
+      "img": "images/items/gifts/24.png",
+      "codes":"Fairy Wings"
+    },
+    {
+      "name": "Tennis Balls",
+      "type": "toggle",
+      "img": "images/items/gifts/25.png",
+      "codes":"Tennis Balls"
+    },
+    {
+      "name": "Tennis Racket",
+      "type": "toggle",
+      "img": "images/items/gifts/26.png",
+      "codes":"Tennis Racket"
+    },
+    {
+      "name": "Flying Disc",
+      "type": "toggle",
+      "img": "images/items/gifts/27.png",
+      "codes":"Flying Disc"
+    },
+    {
+      "name": "Basket Ball",
+      "type": "toggle",
+      "img": "images/items/gifts/28.png",
+      "codes":"Basket Ball"
+    },
+    {
+      "name": "Volley Ball",
+      "type": "toggle",
+      "img": "images/items/gifts/29.png",
+      "codes":"Volley Ball"
+    },
+    {
+      "name": "Soccer Ball",
+      "type": "toggle",
+      "img": "images/items/gifts/30.png",
+      "codes":"Soccer Ball"
+    },
+    {
+      "name": "Sketching Pencils",
+      "type": "toggle",
+      "img": "images/items/gifts/31.png",
+      "codes":"Sketching Pencils"
+    },
+    {
+      "name": "Paint Brushes",
+      "type": "toggle",
+      "img": "images/items/gifts/32.png",
+      "codes":"Paint Brushes"
+    },
+    {
+      "name": "Drawing Mannequin",
+      "type": "toggle",
+      "img": "images/items/gifts/33.png",
+      "codes":"Drawing Mannequin"
+    },
+    {
+      "name": "Sketch Pad",
+      "type": "toggle",
+      "img": "images/items/gifts/34.png",
+      "codes":"Sketch Pad"
+    },
+    {
+      "name": "Paint Palette",
+      "type": "toggle",
+      "img": "images/items/gifts/35.png",
+      "codes":"Paint Palette"
+    },
+    {
+      "name": "Canvas & Easel",
+      "type": "toggle",
+      "img": "images/items/gifts/36.png",
+      "codes":"Canvas & Easel"
+    },
+    {
+      "name": "Baking Utensils",
+      "type": "toggle",
+      "img": "images/items/gifts/37.png",
+      "codes":"Baking Utensils"
+    },
+    {
+      "name": "Measuring Cup",
+      "type": "toggle",
+      "img": "images/items/gifts/38.png",
+      "codes":"Measuring Cup"
+    },
+    {
+      "name": "Rolling Pin",
+      "type": "toggle",
+      "img": "images/items/gifts/39.png",
+      "codes":"Rolling Pin"
+    },
+    {
+      "name": "Oven Timer",
+      "type": "toggle",
+      "img": "images/items/gifts/40.png",
+      "codes":"Oven Timer"
+    },
+    {
+      "name": "Mixing Bowl",
+      "type": "toggle",
+      "img": "images/items/gifts/41.png",
+      "codes":"Mixing Bowl"
+    },
+    {
+      "name": "Oven Mitts",
+      "type": "toggle",
+      "img": "images/items/gifts/42.png",
+      "codes":"Oven Mitts"
+    },
+    {
+      "name": "Yoga Belt",
+      "type": "toggle",
+      "img": "images/items/gifts/43.png",
+      "codes":"Yoga Belt"
+    },
+    {
+      "name": "Yoga Blocks",
+      "type": "toggle",
+      "img": "images/items/gifts/44.png",
+      "codes":"Yoga Blocks"
+    },
+    {
+      "name": "Yoga Bag",
+      "type": "toggle",
+      "img": "images/items/gifts/45.png",
+      "codes":"Yoga Bag"
+    },
+    {
+      "name": "Yoga Mat",
+      "type": "toggle",
+      "img": "images/items/gifts/46.png",
+      "codes":"Yoga Mat"
+    },
+    {
+      "name": "Yoga Ball",
+      "type": "toggle",
+      "img": "images/items/gifts/47.png",
+      "codes":"Yoga Ball"
+    },
+    {
+      "name": "Yoga Outfit",
+      "type": "toggle",
+      "img": "images/items/gifts/48.png",
+      "codes":"Yoga Outfit"
+    },
+    {
+      "name": "Tango Rose",
+      "type": "toggle",
+      "img": "images/items/gifts/49.png",
+      "codes":"Tango Rose"
+    },
+    {
+      "name": "Sweatbands",
+      "type": "toggle",
+      "img": "images/items/gifts/50.png",
+      "codes":"Sweatbands"
+    },
+    {
+      "name": "Leg Warmers",
+      "type": "toggle",
+      "img": "images/items/gifts/51.png",
+      "codes":"Leg Warmers"
+    },
+    {
+      "name": "Dancing Fan",
+      "type": "toggle",
+      "img": "images/items/gifts/52.png",
+      "codes":"Dancing Fan"
+    },
+    {
+      "name": "Pink Tutu",
+      "type": "toggle",
+      "img": "images/items/gifts/53.png",
+      "codes":"Pink Tutu"
+    },
+    {
+      "name": "Stripper Pole",
+      "type": "toggle",
+      "img": "images/items/gifts/54.png",
+      "codes":"Stripper Pole"
+    },
+    {
+      "name": "Synthetic Seaweed",
+      "type": "toggle",
+      "img": "images/items/gifts/55.png",
+      "codes":"Synthetic Seaweed"
+    },
+    {
+      "name": "Synthetic Coral",
+      "type": "toggle",
+      "img": "images/items/gifts/56.png",
+      "codes":"Synthetic Coral"
+    },
+    {
+      "name": "Tank Gravel",
+      "type": "toggle",
+      "img": "images/items/gifts/57.png",
+      "codes":"Tank Gravel"
+    },
+    {
+      "name": "Bag of Goldfish",
+      "type": "toggle",
+      "img": "images/items/gifts/58.png",
+      "codes":"Bag of Goldfish"
+    },
+    {
+      "name": "Fishy Castle",
+      "type": "toggle",
+      "img": "images/items/gifts/59.png",
+      "codes":"Fishy Castle"
+    },
+    {
+      "name": "Fish Tank",
+      "type": "toggle",
+      "img": "images/items/gifts/60.png",
+      "codes":"Fish Tank"
+    },
+    {
+      "name": "Swimmers Cap",
+      "type": "toggle",
+      "img": "images/items/gifts/61.png",
+      "codes":"Swimmers Cap"
+    },
+    {
+      "name": "Goggles",
+      "type": "toggle",
+      "img": "images/items/gifts/62.png",
+      "codes":"Goggles"
+    },
+    {
+      "name": "Snorkel",
+      "type": "toggle",
+      "img": "images/items/gifts/63.png",
+      "codes":"Snorkel"
+    },
+    {
+      "name": "Flippers",
+      "type": "toggle",
+      "img": "images/items/gifts/64.png",
+      "codes":"Flippers"
+    },
+    {
+      "name": "Lifesaver",
+      "type": "toggle",
+      "img": "images/items/gifts/65.png",
+      "codes":"Lifesaver"
+    },
+    {
+      "name": "Diving Tank",
+      "type": "toggle",
+      "img": "images/items/gifts/66.png",
+      "codes":"Diving Tank"
+    },
+    {
+      "name": "Flower Seeds",
+      "type": "toggle",
+      "img": "images/items/gifts/67.png",
+      "codes":"Flower Seeds"
+    },
+    {
+      "name": "Garden Shovel",
+      "type": "toggle",
+      "img": "images/items/gifts/68.png",
+      "codes":"Garden Shovel"
+    },
+    {
+      "name": "Flower Pots",
+      "type": "toggle",
+      "img": "images/items/gifts/69.png",
+      "codes":"Flower Pots"
+    },
+    {
+      "name": "Watering Can",
+      "type": "toggle",
+      "img": "images/items/gifts/70.png",
+      "codes":"Watering Can"
+    },
+    {
+      "name": "Garden Gnome",
+      "type": "toggle",
+      "img": "images/items/gifts/71.png",
+      "codes":"Garden Gnome"
+    },
+    {
+      "name": "Wooden Birdhouse",
+      "type": "toggle",
+      "img": "images/items/gifts/72.png",
+      "codes":"Wooden Birdhouse"
+    },
+    {
+      "name": "Double Hair Bow",
+      "type": "toggle",
+      "img": "images/items/unique gifts/1.png",
+      "codes":"Double Hair Bow"
+    },
+    {
+      "name": "Glitter Bottles",
+      "type": "toggle",
+      "img": "images/items/unique gifts/2.png",
+      "codes":"Glitter Bottles"
+    },
+    {
+      "name": "Twirly Baton",
+      "type": "toggle",
+      "img": "images/items/unique gifts/3.png",
+      "codes":"Twirly Baton"
+    },
+    {
+      "name": "Megaphone",
+      "type": "toggle",
+      "img": "images/items/unique gifts/4.png",
+      "codes":"Megaphone"
+    },
+    {
+      "name": "Pom-poms",
+      "type": "toggle",
+      "img": "images/items/unique gifts/5.png",
+      "codes":"Pom-poms"
+    },
+    {
+      "name": "Cheerleading Uniform",
+      "type": "toggle",
+      "img": "images/items/unique gifts/6.png",
+      "codes":"Cheerleading Uniform"
+    },
+    {
+      "name": "Chopsticks",
+      "type": "toggle",
+      "img": "images/items/unique gifts/7.png",
+      "codes":"Chopsticks"
+    },
+    {
+      "name": "Riceballs",
+      "type": "toggle",
+      "img": "images/items/unique gifts/8.png",
+      "codes":"Riceballs"
+    },
+    {
+      "name": "Bonsai Tree",
+      "type": "toggle",
+      "img": "images/items/unique gifts/9.png",
+      "codes":"Bonsai Tree"
+    },
+    {
+      "name": "Wooden Sandals",
+      "type": "toggle",
+      "img": "images/items/unique gifts/10.png",
+      "codes":"Wooden Sandals"
+    },
+    {
+      "name": "Kimono",
+      "type": "toggle",
+      "img": "images/items/unique gifts/11.png",
+      "codes":"Kimono"
+    },
+    {
+      "name": "Samurai Helmet",
+      "type": "toggle",
+      "img": "images/items/unique gifts/12.png",
+      "codes":"Samurai Helmet"
+    },
+    {
+      "name": "Maracas",
+      "type": "toggle",
+      "img": "images/items/unique gifts/13.png",
+      "codes":"Maracas"
+    },
+    {
+      "name": "Sombrero",
+      "type": "toggle",
+      "img": "images/items/unique gifts/14.png",
+      "codes":"Sombrero"
+    },
+    {
+      "name": "Poncho",
+      "type": "toggle",
+      "img": "images/items/unique gifts/15.png",
+      "codes":"Poncho"
+    },
+    {
+      "name": "Luchador Mask",
+      "type": "toggle",
+      "img": "images/items/unique gifts/16.png",
+      "codes":"Luchador Mask"
+    },
+    {
+      "name": "Pinata",
+      "type": "toggle",
+      "img": "images/items/unique gifts/17.png",
+      "codes":"Pinata"
+    },
+    {
+      "name": "Vinuela",
+      "type": "toggle",
+      "img": "images/items/unique gifts/18.png",
+      "codes":"Vinuela"
+    },
+    {
+      "name": "Cigarette Pack",
+      "type": "toggle",
+      "img": "images/items/unique gifts/19.png",
+      "codes":"Cigarette Pack"
+    },
+    {
+      "name": "Lighter",
+      "type": "toggle",
+      "img": "images/items/unique gifts/20.png",
+      "codes":"Lighter"
+    },
+    {
+      "name": "Glass Pipe",
+      "type": "toggle",
+      "img": "images/items/unique gifts/21.png",
+      "codes":"Glass Pipe"
+    },
+    {
+      "name": "Glass Bong",
+      "type": "toggle",
+      "img": "images/items/unique gifts/22.png",
+      "codes":"Glass Bong"
+    },
+    {
+      "name": "Blotter Tabs",
+      "type": "toggle",
+      "img": "images/items/unique gifts/23.png",
+      "codes":"Blotter Tabs"
+    },
+    {
+      "name": "Happy Pills",
+      "type": "toggle",
+      "img": "images/items/unique gifts/24.png",
+      "codes":"Happy Pills"
+    },
+    {
+      "name": "Wing Pin",
+      "type": "toggle",
+      "img": "images/items/unique gifts/25.png",
+      "codes":"Wing Pin"
+    },
+    {
+      "name": "Compass",
+      "type": "toggle",
+      "img": "images/items/unique gifts/26.png",
+      "codes":"Compass"
+    },
+    {
+      "name": "Pilot's Cap",
+      "type": "toggle",
+      "img": "images/items/unique gifts/27.png",
+      "codes":"Pilot's Cap"
+    },
+    {
+      "name": "Travel Suitcase",
+      "type": "toggle",
+      "img": "images/items/unique gifts/28.png",
+      "codes":"Travel Suitcase"
+    },
+    {
+      "name": "Rolling Luggage",
+      "type": "toggle",
+      "img": "images/items/unique gifts/29.png",
+      "codes":"Rolling Luggage"
+    },
+    {
+      "name": "High Def Camera",
+      "type": "toggle",
+      "img": "images/items/unique gifts/30.png",
+      "codes":"High Def Camera"
+    },
+    {
+      "name": "Retro Controller",
+      "type": "toggle",
+      "img": "images/items/unique gifts/31.png",
+      "codes":"Retro Controller"
+    },
+    {
+      "name": "Arcade Joystick",
+      "type": "toggle",
+      "img": "images/items/unique gifts/32.png",
+      "codes":"Arcade Joystick"
+    },
+    {
+      "name": "Zappy Gun",
+      "type": "toggle",
+      "img": "images/items/unique gifts/33.png",
+      "codes":"Zappy Gun"
+    },
+    {
+      "name": "Gamer Glove",
+      "type": "toggle",
+      "img": "images/items/unique gifts/34.png",
+      "codes":"Gamer Glove"
+    },
+    {
+      "name": "Handheld Game",
+      "type": "toggle",
+      "img": "images/items/unique gifts/35.png",
+      "codes":"Handheld Game"
+    },
+    {
+      "name": "Arcade Cabinet",
+      "type": "toggle",
+      "img": "images/items/unique gifts/36.png",
+      "codes":"Arcade Cabinet"
+    },
+    {
+      "name": "Mistletoe",
+      "type": "toggle",
+      "img": "images/items/unique gifts/37.png",
+      "codes":"Mistletoe"
+    },
+    {
+      "name": "Gingerbread Man",
+      "type": "toggle",
+      "img": "images/items/unique gifts/38.png",
+      "codes":"Gingerbread Man"
+    },
+    {
+      "name": "Round Ornament",
+      "type": "toggle",
+      "img": "images/items/unique gifts/39.png",
+      "codes":"Round Ornament"
+    },
+    {
+      "name": "Ribbon Wreath",
+      "type": "toggle",
+      "img": "images/items/unique gifts/40.png",
+      "codes":"Ribbon Wreath"
+    },
+    {
+      "name": "Fuzzy Stocking",
+      "type": "toggle",
+      "img": "images/items/unique gifts/41.png",
+      "codes":"Fuzzy Stocking"
+    },
+    {
+      "name": "Jolly Old Cap",
+      "type": "toggle",
+      "img": "images/items/unique gifts/42.png",
+      "codes":"Jolly Old Cap"
+    },
+    {
+      "name": "Acorns",
+      "type": "toggle",
+      "img": "images/items/unique gifts/43.png",
+      "codes":"Acorns"
+    },
+    {
+      "name": "Maple Leaf",
+      "type": "toggle",
+      "img": "images/items/unique gifts/44.png",
+      "codes":"Maple Leaf"
+    },
+    {
+      "name": "Pinecone",
+      "type": "toggle",
+      "img": "images/items/unique gifts/45.png",
+      "codes":"Pinecone"
+    },
+    {
+      "name": "Mushrooms",
+      "type": "toggle",
+      "img": "images/items/unique gifts/46.png",
+      "codes":"Mushrooms"
+    },
+    {
+      "name": "Seashell",
+      "type": "toggle",
+      "img": "images/items/unique gifts/47.png",
+      "codes":"Seashell"
+    },
+    {
+      "name": "Four Leaf Clover",
+      "type": "toggle",
+      "img": "images/items/unique gifts/48.png",
+      "codes":"Four Leaf Clover"
+    },
+    {
+      "name": "Endurance Ring",
+      "type": "toggle",
+      "img": "images/items/unique gifts/49.png",
+      "codes":"Endurance Ring"
+    },
+    {
+      "name": "Pocket Vibe",
+      "type": "toggle",
+      "img": "images/items/unique gifts/50.png",
+      "codes":"Pocket Vibe"
+    },
+    {
+      "name": "Fairy's Tail",
+      "type": "toggle",
+      "img": "images/items/unique gifts/51.png",
+      "codes":"Fairy's Tail"
+    },
+    {
+      "name": "Bliss Beads",
+      "type": "toggle",
+      "img": "images/items/unique gifts/52.png",
+      "codes":"Bliss Beads"
+    },
+    {
+      "name": "Magic Wand",
+      "type": "toggle",
+      "img": "images/items/unique gifts/53.png",
+      "codes":"Magic Wand"
+    },
+    {
+      "name": "Royal Scepter",
+      "type": "toggle",
+      "img": "images/items/unique gifts/54.png",
+      "codes":"Royal Scepter"
+    },
+    {
+      "name": "Ball of Yarn",
+      "type": "toggle",
+      "img": "images/items/unique gifts/55.png",
+      "codes":"Ball of Yarn"
+    },
+    {
+      "name": "Lattice Ball",
+      "type": "toggle",
+      "img": "images/items/unique gifts/56.png",
+      "codes":"Lattice Ball"
+    },
+    {
+      "name": "Squeaky Mouse",
+      "type": "toggle",
+      "img": "images/items/unique gifts/57.png",
+      "codes":"Squeaky Mouse"
+    },
+    {
+      "name": "Feather Pole",
+      "type": "toggle",
+      "img": "images/items/unique gifts/58.png",
+      "codes":"Feather Pole"
+    },
+    {
+      "name": "Laser Pointer",
+      "type": "toggle",
+      "img": "images/items/unique gifts/59.png",
+      "codes":"Laser Pointer"
+    },
+    {
+      "name": "Scratch Post",
+      "type": "toggle",
+      "img": "images/items/unique gifts/60.png",
+      "codes":"Scratch Post"
+    },
+    {
+      "name": "Model Rocket",
+      "type": "toggle",
+      "img": "images/items/unique gifts/61.png",
+      "codes":"Model Rocket"
+    },
+    {
+      "name": "Miniature UFO",
+      "type": "toggle",
+      "img": "images/items/unique gifts/62.png",
+      "codes":"Miniature UFO"
+    },
+    {
+      "name": "Armillary Sphere",
+      "type": "toggle",
+      "img": "images/items/unique gifts/63.png",
+      "codes":"Armillary Sphere"
+    },
+    {
+      "name": "Telescope",
+      "type": "toggle",
+      "img": "images/items/unique gifts/64.png",
+      "codes":"Telescope"
+    },
+    {
+      "name": "Space Helmet",
+      "type": "toggle",
+      "img": "images/items/unique gifts/65.png",
+      "codes":"Space Helmet"
+    },
+    {
+      "name": "Moonrock",
+      "type": "toggle",
+      "img": "images/items/unique gifts/66.png",
+      "codes":"Moonrock"
+    },
+    {
+      "name": "Sapphire",
+      "type": "toggle",
+      "img": "images/items/unique gifts/67.png",
+      "codes":"Sapphire"
+    },
+    {
+      "name": "Ruby",
+      "type": "toggle",
+      "img": "images/items/unique gifts/68.png",
+      "codes":"Ruby"
+    },
+    {
+      "name": "Emerald",
+      "type": "toggle",
+      "img": "images/items/unique gifts/69.png",
+      "codes":"Emerald"
+    },
+    {
+      "name": "Topaz",
+      "type": "toggle",
+      "img": "images/items/unique gifts/70.png",
+      "codes":"Topaz"
+    },
+    {
+      "name": "Amethyst",
+      "type": "toggle",
+      "img": "images/items/unique gifts/71.png",
+      "codes":"Amethyst"
+    },
+    {
+      "name": "Diamond",
+      "type": "toggle",
+      "img": "images/items/unique gifts/72.png",
+      "codes":"Diamond"
+    },
+    {
+      "name": "progressive talent lv-up",
+      "type": "toggle",
+      "img": "images/items/1.png",
+      "codes":"progressive talent lv-up"
+    },
+    {
+      "name": "progressive flirtation lv-up",
+      "type": "toggle",
+      "img": "images/items/1.png",
+      "codes":"progressive flirtation lv-up"
+    },
+    {
+      "name": "progressive romance lv-up",
+      "type": "toggle",
+      "img": "images/items/1.png",
+      "codes":"progressive romance lv-up"
+    },
+    {
+      "name": "progressive sexuality lv-up",
+      "type": "toggle",
+      "img": "images/items/1.png",
+      "codes":"progressive sexuality lv-up"
+    },
+    {
+      "name": "progressive passion lv-up",
+      "type": "toggle",
+      "img": "images/items/1.png",
+      "codes":"progressive passion lv-up"
+    },
+    {
+      "name": "progressive sensitivity lv-up",
+      "type": "toggle",
+      "img": "images/items/1.png",
+      "codes":"progressive sensitivity lv-up"
+    },
+    {
+      "name": "progressive charisma lv-up",
+      "type": "toggle",
+      "img": "images/items/1.png",
+      "codes":"progressive charisma lv-up"
+    },
+    {
+      "name": "progressive luck lv-up",
+      "type": "toggle",
+      "img": "images/items/1.png",
+      "codes":"progressive luck lv-up"
+    },
+
+]

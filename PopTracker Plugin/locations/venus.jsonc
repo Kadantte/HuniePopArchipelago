@@ -1,0 +1,863 @@
+[
+    {
+        "name": "venus Date 1",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "330",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus Date 1",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus Date 2",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "415",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus Date 2",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus Date 3",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "500",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus Date 3",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus Date 4",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "585",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus Date 4",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "received venus's panties",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "670",
+                "y": "60",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus panties",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    }    ,
+    {
+        "name": "venus's Last Name",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "50",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Last Name",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Age",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "300",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Age",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Homeworld",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "550",
+                "y": "410",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Homeworld",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Height",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "50",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Height",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Weight",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "300",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Weight",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Occupation",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "550",
+                "y": "540",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Occupation",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Cup Size",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "50",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Cup Size",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Birthday",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "300",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Birthday",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Hobby",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "550",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Hobby",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Favourite Color",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "50",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Favourite Color",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Favourite Season",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "300",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Favourite Season",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "venus's Favourite Hangout",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "550",
+                "y": "800",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "venus's Favourite Hangout",
+                "access_rules": [
+                    "Unlock Girl(venus)"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Flower Seeds",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "875",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Flower Seeds",
+                "access_rules": [
+                    "Unlock Girl(venus),Flower Seeds"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Garden Shovel",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "995",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Garden Shovel",
+                "access_rules": [
+                    "Unlock Girl(venus),Garden Shovel"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Flower Pots",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1115",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Flower Pots",
+                "access_rules": [
+                    "Unlock Girl(venus),Flower Pots"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Watering Can",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1235",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Watering Can",
+                "access_rules": [
+                    "Unlock Girl(venus),Watering Can"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Garden Gnome",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1355",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Garden Gnome",
+                "access_rules": [
+                    "Unlock Girl(venus),Garden Gnome"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Wooden Birdhouse",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1475",
+                "y": "430",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Wooden Birdhouse",
+                "access_rules": [
+                    "Unlock Girl(venus),Wooden Birdhouse"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Baking Utensils",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "875",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Baking Utensils",
+                "access_rules": [
+                    "Unlock Girl(venus),Baking Utensils"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Measuring Cup",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "995",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Measuring Cup",
+                "access_rules": [
+                    "Unlock Girl(venus),Measuring Cup"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Rolling Pin",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1115",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Rolling Pin",
+                "access_rules": [
+                    "Unlock Girl(venus),Rolling Pin"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Oven Timer",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1235",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Oven Timer",
+                "access_rules": [
+                    "Unlock Girl(venus),Oven Timer"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Mixing Bowl",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1355",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Mixing Bowl",
+                "access_rules": [
+                    "Unlock Girl(venus),Mixing Bowl"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Oven Mitts",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1475",
+                "y": "550",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Oven Mitts",
+                "access_rules": [
+                    "Unlock Girl(venus),Oven Mitts"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Yoga Belt",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "875",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Yoga Belt",
+                "access_rules": [
+                    "Unlock Girl(venus),Yoga Belt"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Yoga Blocks",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "995",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Yoga Blocks",
+                "access_rules": [
+                    "Unlock Girl(venus),Yoga Blocks"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Yoga Bag",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1115",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Yoga Bag",
+                "access_rules": [
+                    "Unlock Girl(venus),Yoga Bag"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Yoga Mat",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1235",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Yoga Mat",
+                "access_rules": [
+                    "Unlock Girl(venus),Yoga Mat"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Yoga Ball",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1355",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Yoga Ball",
+                "access_rules": [
+                    "Unlock Girl(venus),Yoga Ball"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Yoga Outfit",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1475",
+                "y": "670",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Yoga Outfit",
+                "access_rules": [
+                    "Unlock Girl(venus),Yoga Outfit"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Sapphire",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "875",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Sapphire",
+                "access_rules": [
+                    "Unlock Girl(venus),Sapphire"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Ruby",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "995",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Ruby",
+                "access_rules": [
+                    "Unlock Girl(venus),Ruby"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Emerald",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1115",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Emerald",
+                "access_rules": [
+                    "Unlock Girl(venus),Emerald"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Topaz",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1235",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Topaz",
+                "access_rules": [
+                    "Unlock Girl(venus),Topaz"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Amethyst",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1355",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Amethyst",
+                "access_rules": [
+                    "Unlock Girl(venus),Amethyst"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gift venus Diamond",
+        "map_locations": [
+            {
+                "map": "venus",
+                "x": "1475",
+                "y": "790",
+                "size": 30
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gift venus Diamond",
+                "access_rules": [
+                    "Unlock Girl(venus),Diamond"
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ]
+    }
+]
