@@ -2,6 +2,7 @@
 using HarmonyLib;
 using HuniePopArchiepelagoClient.Archipelago;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -19,24 +20,12 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
         [HarmonyPrefix]
         public static bool storepurchase(StoreItemSlot storeItemSlot, StoreCellApp __instance, ref int ____currentStoreTab)
         {
-            if (____currentStoreTab == 1)
+            if (storeItemSlot.itemDefinition.id > Convert.ToInt32(Plugin.curse.connected.slot_data["shop_loc_start"]))
             {
-                if (storeItemSlot.itemDefinition.id > Convert.ToInt32(Plugin.curse.connected.slot_data["shop_loc_start"]))
-                {
-                    ArchipelagoConsole.LogMessage($"PURCHASED ITEM:{storeItemSlot.itemDefinition.name}");
-                    ArchipelagoConsole.LogMessage($"SENDING LOCATION {storeItemSlot.itemDefinition.id}");
-                    Plugin.curse.sendLoc(storeItemSlot.itemDefinition.id);
-                    return true;
-                }
-                //long a = IDs.itemidtoarchid(storeItemSlot.itemDefinition.id);
-                //for (int i = 0; i < CursedArchipelagoClient.alist.list.Count; i++)
-                //{
-                //    if (CursedArchipelagoClient.alist.list[i].Id == a && CursedArchipelagoClient.alist.list[i].putinshop)
-                //    {
-                //        CursedArchipelagoClient.alist.list[i].putinshop = false;
-                //        return true;
-                //    }
-                //}
+                ArchipelagoConsole.LogMessage($"PURCHASED ITEM:{storeItemSlot.itemDefinition.name}");
+                ArchipelagoConsole.LogMessage($"SENDING LOCATION {storeItemSlot.itemDefinition.id}");
+                Plugin.curse.sendLoc(storeItemSlot.itemDefinition.id);
+                return true;
             }
             return true;
         }
@@ -51,68 +40,19 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
             //populate the gift tab of the shop
             if (itemType == ItemType.GIFT)
             {
-                //get all gift items that have been recieved by the client
-                List<ItemDefinition> p0 = new List<ItemDefinition>();
-                List<ItemDefinition> p1 = new List<ItemDefinition>();
-                foreach(int id in IDs.giftids)
-                {
-                    if (CursedArchipelagoClient.alist.hasitem(IDs.giftidtooffset(id) + Convert.ToInt32(Plugin.curse.connected.slot_data["gift_item_start"])))
-                    {
-                        bool pri = false;
-                        foreach(var g in __instance.girls)
-                        {
-                            if (g.metStatus == GirlMetStatus.MET)
-                            {
-                                foreach (var c in g.GetGirlDefinition().collection)
-                                {
-                                    if (c.id == id)
-                                    {
-                                        if (!g.IsItemInCollection(GameManager.Data.Items.Get(id)))
-                                        {
-                                            p1.Add(GameManager.Data.Items.Get(id));
-                                            pri = true;
-                                        }
-                                        break;
-                                    }
-                                }
-                                if (pri) break;
-                            }
-                        }
-                        if (!pri) p1.Add(GameManager.Data.Items.Get(id));
-                    }
-                }
+                List<ItemDefinition> list = GameManager.Data.Items.GetAllOfType(ItemType.DATE_GIFT, false);
 
-                ListUtils.Shuffle<ItemDefinition>(p0);
-                ListUtils.Shuffle<ItemDefinition>(p1);
-                List<ItemDefinition> pend = new List<ItemDefinition>();
+                ListUtils.Shuffle<ItemDefinition>(list);
 
-                if ((p0.Count + p1.Count) <= 12)
+                if (list.Count > 12)
                 {
-                    pend.AddRange(p0);
-                    pend.AddRange(p1);
+                    list.RemoveRange(12, list.Count - 12);
                 }
-                else
-                {
-                    for (int i = 0; i<12; i++)
-                    {
-                        if (p0.Count > 0 && (i < 6 || p1.Count==0))
-                        {
-                            pend.Add(p0.Pop());
-                        }
-                        else
-                        {
-                            pend.Add(p1.Pop());
-                        }
-                    }
-                }
-                
-                ListUtils.Shuffle<ItemDefinition>(pend);
-
                 for (int l = 0; l < 12; l++)
                 {
-                    if (pend.Count > l)
+                    if (list.Count > l)
                     {
-                        storeList[l].itemDefinition = pend[l];
+                        storeList[l].itemDefinition = list[l];
                         storeList[l].soldOut = false;
                     }
                     else
@@ -123,12 +63,13 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
                 }
 
                 return false;
+
             }
             //populate the Unique Gift tab for the shop
             else if (itemType == ItemType.UNIQUE_GIFT)
             {
 
-                List<ItemDefinition> p = new List<ItemDefinition>();
+                List<ItemDefinition> arch = new List<ItemDefinition>();
 
                 //get all archipelago shop locations to put in the store
                 int shopslots = Convert.ToInt32(Plugin.curse.connected.slot_data["number_of_shop_items"]);
@@ -147,20 +88,77 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
                     item.name = "ARCH ITEM:" + (j + 1).ToString();
                     item.id = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_loc_start"]) + j + 1;
                     item.description = "LOCATION CHECK FOR ARCHIPELAGO WILL BE REMOVED FROM INVENTORY WHEN MOVING LOCATIONS";
-                    p.Add(item);
+                    arch.Add(item);
                 }
 
-                //randomise and populate the store slots with items
-                ListUtils.Shuffle<ItemDefinition>(p);
-                if (p.Count > 12)
+                //get all gift items that have been recieved by the client
+                List<ItemDefinition> gifts = new List<ItemDefinition>();
+                List<ItemDefinition> prigifts = new List<ItemDefinition>();
+                foreach (int id in IDs.giftids)
                 {
-                    p.RemoveRange(12, p.Count - 12);
+                    if (CursedArchipelagoClient.alist.hasitem(IDs.giftidtooffset(id) + Convert.ToInt32(Plugin.curse.connected.slot_data["gift_item_start"])))
+                    {
+                        bool pri = false;
+                        foreach (var g in __instance.girls)
+                        {
+                            if (g.metStatus == GirlMetStatus.MET)
+                            {
+                                foreach (var c in g.GetGirlDefinition().collection)
+                                {
+                                    if (c.id == id)
+                                    {
+                                        if (!g.IsItemInCollection(GameManager.Data.Items.Get(id)))
+                                        {
+                                            prigifts.Add(GameManager.Data.Items.Get(id));
+                                            pri = true;
+                                        }
+                                        break;
+                                    }
+                                }
+                                if (pri) break;
+                            }
+                        }
+                        if (!pri) prigifts.Add(GameManager.Data.Items.Get(id));
+                    }
                 }
+
+                ListUtils.Shuffle<ItemDefinition>(arch);
+                ListUtils.Shuffle<ItemDefinition>(gifts);
+                ListUtils.Shuffle<ItemDefinition>(prigifts);
+                List<ItemDefinition> storelist = new List<ItemDefinition>();
+
+                if ((gifts.Count + prigifts.Count + arch.Count) <= 12)
+                {
+                    storelist.AddRange(gifts);
+                    storelist.AddRange(prigifts);
+                    storelist.AddRange(arch);
+                }
+                else
+                {
+                    for (int i = 0; i < 12; i++)
+                    {
+                        if (prigifts.Count > 0 && (i < 6 || (arch.Count == 0 && gifts.Count == 0)))
+                        {
+                            storelist.Add(prigifts.Pop());
+                        }
+                        else if (gifts.Count > 0 && (i < 6 || (arch.Count == 0)))
+                        {
+                            storelist.Add(gifts.Pop());
+                        }
+                        else if (arch.Count > 0)
+                        {
+                            storelist.Add(arch.Pop());
+                        }
+                    }
+                }
+
+                ListUtils.Shuffle<ItemDefinition>(storelist);
+
                 for (int l = 0; l < 12; l++)
                 {
-                    if (p.Count > l)
+                    if (storelist.Count > l)
                     {
-                        storeList[l].itemDefinition = p[l];
+                        storeList[l].itemDefinition = storelist[l];
                         storeList[l].soldOut = false;
                     }
                     else
@@ -169,6 +167,7 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
                         storeList[l].soldOut = true;
                     }
                 }
+
                 return false;
             }
             return true;
@@ -194,6 +193,11 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
             else if (__instance.type == ItemType.UNIQUE_GIFT)
             {
                 __result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_gift_cost"]);
+                return false;
+            }
+            else if (__instance.type == ItemType.DATE_GIFT)
+            {
+                __result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_date_gift_cost"]);
                 return false;
             }
             return true;
@@ -252,5 +256,32 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
             }
         }
 
+
+        [HarmonyPatch(typeof(ActionMenuButton), "Refresh")]
+        [HarmonyPrefix]
+        public static bool stroelabel(ActionMenuButton __instance)
+        {
+            if (__instance.definition.subtitleType == ActionMenuSubtitleType.SHOP_FOR_HER)
+            {
+                int num3 = 0;
+                for (int k = 0; k < GameManager.System.Player.storeUnique.Length; k++)
+                {
+                    if (!GameManager.System.Player.storeUnique[k].soldOut)
+                    {
+                        num3++;
+                    }
+                }
+                if (num3 > 0)
+                {
+                    __instance.actionSubLabel.SetText(num3.ToString() + " in Stock");
+                }
+                else
+                {
+                    __instance.actionSubLabel.SetText("Out of Stock");
+                }
+                return false;
+            }
+            return true;
+        }
     }
 }

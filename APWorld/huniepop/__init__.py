@@ -279,6 +279,7 @@ class HuniePop(World):
             "number_of_shop_items": self.shopslots,
             "shop_item_cost": self.options.shop_item_cost.value,
             "shop_gift_cost": self.options.shop_gift_cost.value,
+            "shop_date_gift_cost": self.options.shop_date_gift_cost.value,
             "hunie_gift_cost": self.options.hunie_gift_cost.value,
 
             "puzzle_moves": self.options.puzzle_moves.value,

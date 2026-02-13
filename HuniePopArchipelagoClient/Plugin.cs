@@ -17,9 +17,9 @@ namespace HuniePopArchiepelagoClient
     {
         public const string PluginGUID = "Dots.Archipelago.huniepop";
         public const string PluginName = "Hunie Pop";
-        public const string PluginVersion = "2.0.0";
+        public const string PluginVersion = "2.1.0";
         public static int compatworldmajor = 2;
-        public static int compatworldminor = 0;
+        public static int compatworldminor = 1;
         public static int compatworldbuild = 0;
 
 
@@ -52,7 +52,6 @@ namespace HuniePopArchiepelagoClient
 
             try
             {
-                ArchipelagoConsole.LogMessage($"{ModDisplayInfo} loaded!");
                 ArchipelagoConsole.LogMessage("DotsWebsocket.dll version:" + helper.dotsV().ToString());
                 if (helper.dotsV() == 3) { dll = true; }
                 else { ArchipelagoConsole.LogMessage("DotsWebsocket Not Correct Version"); }
@@ -64,9 +63,10 @@ namespace HuniePopArchiepelagoClient
                 ArchipelagoConsole.LogImportant("FATAL ERROR: DotsWebSocket.dll not able to be accessed");
                 if (File.Exists("/BepInEx/plugins/Hunie Pop Archipelago Client/DotsWebSocket.dll"))
                 {
-                    ArchipelagoConsole.LogImportant("DotsWebSocket.dll exists but errored on client.\nmake sure you have \"Microsoft Visual C++ Redistributable x86\" version greater than 14.42.34433.0 installed.\nPermalink to latest: https://aka.ms/vs/17/release/vc_redist.x86.exe");
+                    ArchipelagoConsole.LogImportant("DotsWebSocket.dll exists but errored on client.");
                 }
             }
+            ArchipelagoConsole.LogMessage($"{ModDisplayInfo} loaded! - Press F8 to Toggle Console");
 
         }
         void Update()

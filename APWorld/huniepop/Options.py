@@ -82,17 +82,24 @@ class exclude_shop_items(Range):
 
 class shop_item_cost(Range):
     """the cost of each arch item location in the shop"""
-    display_name = "shop item cost"
+    display_name = "shop arch item cost"
     range_start = 100
     range_end = 50000
     default = 1000
 
 class shop_gift_cost(Range):
     """the cost of each gift item in the shop"""
-    display_name = "shop item cost"
+    display_name = "shop gift item cost"
     range_start = 100
     range_end = 50000
     default = 2500
+
+class shop_date_gift_cost(Range):
+    """the cost of each date gift item in the shop"""
+    display_name = "shop date gift item cost"
+    range_start = 100
+    range_end = 50000
+    default = 500
 
 class hunie_gift_cost(Range):
     """the cost of each gift item when buying using hunie"""
@@ -121,6 +128,7 @@ class HPOptions(PerGameCommonOptions):
     exclude_shop_items: exclude_shop_items
     shop_item_cost: shop_item_cost
     shop_gift_cost: shop_gift_cost
+    shop_date_gift_cost: shop_date_gift_cost
     hunie_gift_cost: hunie_gift_cost
     puzzle_moves: puzzle_moves
     puzzle_affection_base: puzzle_affection_base

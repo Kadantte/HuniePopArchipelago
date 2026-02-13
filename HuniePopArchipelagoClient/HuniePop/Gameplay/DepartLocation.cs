@@ -186,8 +186,7 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
                     if (!player.IsInventoryFull())
                     {
                         player.AddItem(GameManager.Data.Items.Get(IDs.giftoffsettoid(offset)), player.inventory, false, false);
-                        ArchipelagoConsole.LogMessage(GameManager.Data.Items.Get(IDs.giftoffsettoid(offset)).name + " recieved");
-                        ArchipelagoConsole.LogMessage(GameManager.Data.Items.Get(IDs.giftoffsettoid(offset)).name + " can now be bought in the shop");
+                        ArchipelagoConsole.LogMessage(GameManager.Data.Items.Get(IDs.giftoffsettoid(offset)).name + " recieved and can now be bought in the shop");
                         item.processed = true;
                     }
                 }
