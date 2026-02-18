@@ -191,7 +191,7 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
                     }
                 }
                 //if item id is between 42069168 and 42069177 process it as a Trait Upgrade Item
-                else if (item.Id > tokenloc && item.Id < junkloc)
+                else if (item.Id > tokenloc && item.Id <= junkloc)
                 {
                     ArchipelagoConsole.LogMessage($"{item.itemname} recieved");
                     int offset = (int)(item.Id - tokenloc);

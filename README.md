@@ -5,7 +5,7 @@ Collection of projects for connecting/tracking HuniePop with Archipelago
 # HuniePopArchipelagoClient
 Built using template from https://github.com/alwaysintreble/ArchipelagoBepInExPluginTemplate
 
-Requires Hunie Pop APWorld ([link](https://github.com/DotsofdarknessArchipelago/HuniePop-APWorld)) to generate a world
+Requires Hunie Pop APWorld (found in releases) to generate a world
 
 A BepInEx plugin for Hunie Pop to connect and talk to a Archipelago server for multiworld randomization games
 
@@ -24,6 +24,8 @@ INSTALLATION INSTRUCTIONS:
 - Extract and copy the contents of "Hunie Pop Archipelago plugin.zip" to the directory where "HuniePop.exe" is if it asks you to overwrite files click yes
 
 NOTE if you get a game crash when starting the game make sure that in "{huniepop game directory}/bepinex/config/bepinex.cfg" the 2nd last option is "type = MonoBehaviour" <b><ins>not</ins></b> "type = Application"
+
+if you get "An invalid SSL record was received" error try putting "ws://" or "wss://" before the host address
 
 # HuniePopArchipelago APWorld
 APWorld For Hunie Pop 
