@@ -17,10 +17,10 @@ namespace HuniePopArchiepelagoClient
     {
         public const string PluginGUID = "Dots.Archipelago.huniepop";
         public const string PluginName = "Hunie Pop";
-        public const string PluginVersion = "2.1.1";
+        public const string PluginVersion = "2.1.2";
         public static int compatworldmajor = 2;
         public static int compatworldminor = 1;
-        public static int compatworldbuild = 1;
+        public static int compatworldbuild = 2;
 
 
         public const string ModDisplayInfo = $"{PluginName} v{PluginVersion}";

@@ -206,7 +206,7 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
                     if (IDs.filleroffsettoid(offset) == -1)
                     {
                         item.processed = true;
-                        break;
+                        continue;
                     }
                     if (!player.IsInventoryFull())
                     {
