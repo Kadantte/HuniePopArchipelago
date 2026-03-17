@@ -1,4 +1,5 @@
-﻿using BepInEx;
+﻿using Archipelago.MultiClient.Net.BounceFeatures.DeathLink;
+using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 using HuniePopArchiepelagoClient.Archipelago;
@@ -17,10 +18,10 @@ namespace HuniePopArchiepelagoClient
     {
         public const string PluginGUID = "Dots.Archipelago.huniepop";
         public const string PluginName = "Hunie Pop";
-        public const string PluginVersion = "2.1.2";
+        public const string PluginVersion = "2.2.0";
         public static int compatworldmajor = 2;
-        public static int compatworldminor = 1;
-        public static int compatworldbuild = 2;
+        public static int compatworldminor = 2;
+        public static int compatworldbuild = 0;
 
 
         public const string ModDisplayInfo = $"{PluginName} v{PluginVersion}";
@@ -78,12 +79,22 @@ namespace HuniePopArchiepelagoClient
                     CursedArchipelagoClient.msgCallback(Marshal.PtrToStringAnsi(helper.getmsg(curse.ws)));
                 }
             }
+
+            if (GameManager.System.GameState != GameState.PUZZLE && CursedArchipelagoClient.deathlink != 3 && CursedArchipelagoClient.deathlinkdeaths.Count > 0)
+            {
+                BepinLogger.LogMessage("RESETTING DEATLINK LIST SINCE OUTSIDE OF PUZZLE");
+                CursedArchipelagoClient.deathlinkdeaths = [];
+            }
+
             if (Input.GetKeyDown(KeyCode.F8))
             {
                 ArchipelagoConsole.toggle();
             }
             if (Input.GetKeyDown(KeyCode.F7))
             {
+                ArchipelagoConsole.LogMessage($"gamestate: {GameManager.System.GameState}");
+                ArchipelagoConsole.LogMessage($"puzzlestate: {GameManager.System.Puzzle.Game.puzzleGameState}");
+                
             }
             if (Input.GetKeyDown(KeyCode.Escape) && !curse.fullconnection)
             {

@@ -3,7 +3,7 @@ import logging
 from BaseClasses import ItemClassification, Region, LocationProgressType
 from worlds.AutoWorld import World
 from worlds.huniepop.Data import girllist, rand_girl_data, gift_id_to_name
-from worlds.huniepop.Items import item_table, HPItem, panties_item, gift_item, girl_unlock, token_item, junk_item, item_datapackage
+from worlds.huniepop.Items import item_table, HPItem, panties_item, gift_item, girl_unlock, token_item, junk_item, item_datapackage, filler_items
 from worlds.huniepop.Locations import location_table, HPLocation, loc_datapackage
 from worlds.huniepop.Options import HPOptions
 from worlds.huniepop.Rules import set_rules
@@ -36,7 +36,7 @@ class HuniePop(World):
         self.totalloc = 0
         self.totalitem = 0
 
-        if "kyu" not in self.options.enabled_girls.value and self.options.goal.value:
+        if "kyu" not in self.options.enabled_girls.value and self.options.goal.value==1:
             logging.warning(f"""(Hunie Pop) Adding "kyu" to "enabled_girls" for Player:"{self.player_name}" since goal is "Give kyu all available panties\"""")
             self.options.enabled_girls.value.add("kyu")
 
@@ -56,7 +56,7 @@ class HuniePop(World):
             totallocations += (4*len(self.enabledgirls))
         if True: #sleep with locations
             totallocations += len(self.enabledgirls)
-        if True: #pantie turn in locations
+        if "kyu" in self.enabledgirls: #pantie turn in locations
             totallocations += len(self.enabledgirls)
         if True: #gift locations
             totallocations += (24*len(self.enabledgirls))
@@ -93,7 +93,7 @@ class HuniePop(World):
     def create_regions(self):
         hub_region = Region("Menu", self.player, self.multiworld)
 
-        if not self.options.goal.value:
+        if self.options.goal.value == 0:
             hub_region.add_locations({"Sleep with all girls":self.location_name_to_id["Sleep with all girls"]}, HPLocation)
 
         self.multiworld.regions.append(hub_region)
@@ -177,7 +177,7 @@ class HuniePop(World):
                 if "venus" in self.enabledgirls:
                     girlregion.add_locations({"given kyu venus's panties": self.location_name_to_id["given kyu venus's panties"]}, HPLocation)
 
-                if self.options.goal.value:
+                if self.options.goal.value == 1:
                     girlregion.add_locations({"Give kyu all available panties": self.location_name_to_id["Give kyu all available panties"]}, HPLocation)
 
 
@@ -248,16 +248,16 @@ class HuniePop(World):
 
 
         if self.trashitems > 0:
-            if self.options.filler_item.value == 1:
+            if self.options.filler_item.value == 0:
                 for i in range(self.trashitems):
                     self.multiworld.itempool.append(self.create_item("Nothing"))
             else:
                 for i in range(self.trashitems):
-                    self.multiworld.itempool.append(self.create_item(self.random.choice([*junk_item])))
+                    self.multiworld.itempool.append(self.create_item(self.random.choice([*filler_items])))
 
 
     def set_rules(self):
-        if self.options.goal.value:
+        if self.options.goal.value == 1:
             self.multiworld.get_location("Give kyu all available panties", self.player).place_locked_item(self.create_item("Goal Achieved"))
         else:
             self.multiworld.get_location("Sleep with all girls", self.player).place_locked_item(self.create_item("Goal Achieved"))
@@ -271,16 +271,19 @@ class HuniePop(World):
                 if i>=self.options.exclude_shop_items:
                     self.multiworld.get_location(f"shop_location: {i + 1}", self.player).progress_type = LocationProgressType.EXCLUDED
 
+    #something to stop warnings happening in console when running tests
+    def get_filler_item_name(self) -> str:
+        return self.random.choice(list(filler_items.keys()))
 
     def fill_slot_data(self) -> dict:
         returndict = {
             "start_girl": self.startgirl,
 
             "number_of_shop_items": self.shopslots,
-            "shop_item_cost": self.options.shop_item_cost.value,
-            "shop_gift_cost": self.options.shop_gift_cost.value,
-            "shop_date_gift_cost": self.options.shop_date_gift_cost.value,
-            "hunie_gift_cost": self.options.hunie_gift_cost.value,
+            "shop_item_cost": self.options.shop_item_cost.val,
+            "shop_gift_cost": self.options.shop_gift_cost.val,
+            "shop_date_gift_cost": self.options.shop_date_gift_cost.val,
+            "hunie_gift_cost": self.options.hunie_gift_cost.val,
 
             "puzzle_moves": self.options.puzzle_moves.value,
             "puzzle_affection_base": self.options.puzzle_affection_base.value,
@@ -293,6 +296,8 @@ class HuniePop(World):
 
             "world_version": self.world_version,
             "goal": self.options.goal.value,
+
+            "deathlink": self.options.deathlink.value,
 
             "tiffany_enabled": "tiffany" in self.options.enabled_girls.value,
             "aiko_enabled": "aiko" in self.options.enabled_girls.value,

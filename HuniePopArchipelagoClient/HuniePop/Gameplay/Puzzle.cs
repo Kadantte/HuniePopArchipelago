@@ -1,8 +1,11 @@
-﻿using HarmonyLib;
+﻿using Boomlagoon.JSON;
+using HarmonyLib;
+using HuniePopArchiepelagoClient.Archipelago;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 
 namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
@@ -10,6 +13,33 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
     [HarmonyPatch]
     public class Puzzle
     {
+        public static bool deathprocessing = false;
+
+
+        /// <summary>
+        /// process deathlinks
+        /// </summary>
+        [HarmonyPatch(typeof(PuzzleGame), "OnUpdate")]
+        [HarmonyPrefix]
+        public static void puzzledeathlinks(PuzzleGame __instance)
+        {
+            if (__instance.isBonusRound) { return; }
+            if (__instance.puzzleGameState == PuzzleGameState.WAITING && CursedArchipelagoClient.deathlinkdeaths.Count > 0)
+            {
+                BouncedPacket t = CursedArchipelagoClient.deathlinkdeaths.Pop();
+                if (t.data.Keys.Contains("cause"))
+                {
+                    ArchipelagoConsole.LogMessage($"Recieved DEATH from {t.data["source"]} cause {t.data["cause"]}");
+                }
+                else
+                {
+                    ArchipelagoConsole.LogMessage($"Recieved DEATH from {t.data["source"]}");
+                }
+                __instance.puzzleGameState = PuzzleGameState.FINISHED;
+                deathprocessing = true;
+            }
+        }
+
         /// <summary>
         /// send archipelago location for completing a date/having sex with a girl
         /// </summary>
@@ -31,6 +61,11 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
                 girlData.AddPhotoEarned(3);
                 Plugin.curse.sendLoc("sleep_loc_start", (girlData.GetGirlDefinition().id));
             }
+            if (CursedArchipelagoClient.deathlink > 0 && !deathprocessing && !____activePuzzleGame.isVictorious)
+            {
+                Plugin.curse.sendJson($"{{\"cmd\":\"Bounce\", \"tags\":[\"DeathLink\"],\"data\":{{\"cause\":\"Failed date with {GameManager.System.Location.currentGirl.firstName}\",\"source\":\"{Plugin.curse.username}\",\"time\":{(long)(DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalSeconds}}}}}");
+            }
+            deathprocessing = false;
         }
 
         /// <summary>

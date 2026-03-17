@@ -133,7 +133,12 @@ namespace HuniePopArchiepelagoClient.Archipelago
 
     public class BouncedPacket
     {
+        //{"cmd":"Bounced","data":{"cause":"hello world","source":"Player1","time":1773629581.5535889},"games":[],"slots":[],"tags":["DeathLink"]}
         public string Cmd;
+        public List<string> games;
+        public List<string> slots;
+        public List<string> tags;
+        public Dictionary<string, string> data;
     }
     public class InvalidPacketPacket
     {

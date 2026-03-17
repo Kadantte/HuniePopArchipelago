@@ -182,22 +182,31 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
         {
             if (__instance.type == ItemType.PRESENT)
             {
-                __result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_item_cost"]);
+                //__result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_item_cost"]);
+                int i = __instance.id - Convert.ToInt32(Plugin.curse.connected.slot_data["shop_loc_start"]);
+                if (CursedArchipelagoClient.archshopcost.Keys.Contains($"shop{i}")) { __result = CursedArchipelagoClient.archshopcost[$"shop{i}"]; }
+                else { __result = 50000; }
                 return false;
             }
             else if (__instance.type == ItemType.GIFT)
             {
-                __result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_gift_cost"]);
+                //__result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_gift_cost"]);
+                if (CursedArchipelagoClient.giftshopcost.Keys.Contains(__instance.id)) { __result = CursedArchipelagoClient.giftshopcost[__instance.id]; }
+                else { __result = 50000; }
                 return false;
             }
             else if (__instance.type == ItemType.UNIQUE_GIFT)
             {
-                __result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_gift_cost"]);
+                //__result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_gift_cost"]);
+                if (CursedArchipelagoClient.giftshopcost.Keys.Contains(__instance.id)) { __result = CursedArchipelagoClient.giftshopcost[__instance.id]; }
+                else { __result = 50000; }
                 return false;
             }
             else if (__instance.type == ItemType.DATE_GIFT)
             {
-                __result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_date_gift_cost"]);
+                //__result = Convert.ToInt32(Plugin.curse.connected.slot_data["shop_date_gift_cost"]);
+                if (CursedArchipelagoClient.dateshopcost.Keys.Contains(__instance.id)) { __result = CursedArchipelagoClient.dateshopcost[__instance.id]; }
+                else { __result = 50000; }
                 return false;
             }
             return true;

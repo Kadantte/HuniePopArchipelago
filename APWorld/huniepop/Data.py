@@ -639,6 +639,92 @@ gift_ids = [
     264,#//venus gift 6 | Diamond
 ]
 
+date_gifts_ids = [
+1,#Coffee
+2,#Orange Juice
+3,#Bagel
+4,#Muffin
+5,#Omelette
+6,#Pancakes
+7,#Cookies
+8,#Cupcakes
+9,#Sundae
+10,#Pumpkin Pie
+11,#Fruit Tart Pie
+12,#Wedding Cake
+13,#Orange
+14,#Lemon
+15,#Mango
+16,#Pinapple
+17,#Coconut
+18,#Watermelon
+19,#Carrot
+20,#Cucumber
+21,#Tomatos
+22,#Bell Peppers
+23,#Eggplant
+24,#Cabbage
+25,#Heart Candies
+26,#Jelly Beans
+27,#Bubble Gum
+28,#Lollipop
+29,#Cotton Candy
+30,#Chocolate
+31,#Soda
+32,#Popcorn
+33,#French Fries
+34,#Corndog
+35,#Hamburger
+36,#Pizza
+37,#Beer
+38,#Sake
+39,#Wine
+40,#Champagne
+41,#Pina Colada
+42,#Daiquiri
+43,#Mojito
+44,#Lime Margarita
+45,#Martini
+46,#Cocktail
+47,#Lemon Drop
+48,#Whisky
+121,#Hoop Earrings
+122,#Gold Earrings
+123,#Heart Necklace
+124,#Pearl Necklace
+125,#Silver Ring
+126,#Lovely Ring
+127,#Nail Polish
+128,#Shiny Lipstick
+129,#Hair Brush
+130,#Makeup Kit
+131,#Eyelash Curler
+132,#Compact Mirror
+133,#Peep Toe Heels
+134,#Cork Wedge Sandals
+135,#Vintage Platforms
+136,#Leopard Print Pumps
+137,#Pink Mary Janes
+138,#Suede Ankle Booties
+139,#Blue Orchid
+140,#White Pansy
+141,#Orange Cosmos
+142,#Red Tulip
+143,#Pink Lily
+144,#Sunflower
+145,#Stuffed Bear
+146,#Stuffed Cat
+147,#Stuffed Sheep
+148,#Stuffed Monkey
+149,#Stuffed Penguin
+150,#Stuffed Whale
+151,#Sea Breeze Perfume
+152,#Green Tea Perfume
+153,#Peach Perfume
+154,#Cinnamon Perfume
+155,#Rose Perfume
+156,#Lilac Perfume
+]
 
 
 
@@ -652,11 +738,13 @@ traits = [
 
 def rand_girl_data(options, random):
     outdict = {}
+    giftlist = [*gift_ids]
+    usedgifts = []
     for girl in girllist:
         outdict[girl] = {}
 
-        if options.randomize_girl_gifts.value:
-            t = random.sample(gift_ids,24)
+        if options.randomize_girl_gifts.value!=0:
+            t = random.sample(giftlist,24)
             outdict[girl]["gift1"] = t[0]
             outdict[girl]["gift2"] = t[1]
             outdict[girl]["gift3"] = t[2]
@@ -681,6 +769,11 @@ def rand_girl_data(options, random):
             outdict[girl]["gift22"] = t[21]
             outdict[girl]["gift23"] = t[22]
             outdict[girl]["gift24"] = t[23]
+            if options.randomize_girl_gifts.value==1:
+                for i in t:
+                    giftlist.remove(i)
+                if len(giftlist)==0:
+                    giftlist = [*gift_ids]
         else:
             outdict[girl]["gift1"] = defaultgirlgifts[girl][0]
             outdict[girl]["gift2"] = defaultgirlgifts[girl][1]

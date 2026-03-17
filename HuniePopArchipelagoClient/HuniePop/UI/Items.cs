@@ -3,6 +3,7 @@ using HuniePopArchiepelagoClient.Archipelago;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using System;
+using System.Linq;
 using System.Reflection;
 using UnityEngine;
 
@@ -11,6 +12,26 @@ namespace HuniePopArchiepelagoClient.HuniePop.UI
     [HarmonyPatch]
     public class Items
     {
+
+
+        [HarmonyPatch(typeof(GirlProfilePreference), "Init")]
+        [HarmonyPostfix]
+        public static void profileoverwite(GirlDefinition girlDefinition, int preferenceIndex, ref LabelObject ___valueLabel)
+        {
+            switch (preferenceIndex)
+            {
+                case 2:
+                    ___valueLabel.SetText(StringUtils.Titleize("See Collection"));
+                    break;
+                case 3:
+                    ___valueLabel.SetText(StringUtils.Titleize("See Collection"));
+                    break;
+                case 4:
+                    ___valueLabel.SetText(StringUtils.Titleize("See Collection"));
+                    break;
+            }
+        }
+
         /// <summary>
         /// overwrite the tooltip for items in girls collection that you can buy
         /// NOTE mainly just the same method as vanilla method with checks for archipelago stuff
@@ -27,6 +48,10 @@ namespace HuniePopArchiepelagoClient.HuniePop.UI
                 __instance.typeLabel.SetColor(ColorUtils.HexToColor("C06E94"));
                 __instance.valueLabel.SetColor(ColorUtils.HexToColor("A16799"));
 
+                int hunie = -1;
+                if (CursedArchipelagoClient.gifthunniecost.Keys.Contains(____itemDefinition.id)) { hunie = CursedArchipelagoClient.gifthunniecost[____itemDefinition.id]; }
+                else { hunie = 99999; }
+
                 if (____collectionItem && GameManager.System.Player.endingSceneShown)
                 {
                     string text = __instance.valueLabel.label.text + "\n";
@@ -41,13 +66,13 @@ namespace HuniePopArchiepelagoClient.HuniePop.UI
                     }
                     else if (CursedArchipelagoClient.alist.hasitem(IDs.giftidtooffset(____itemDefinition.id) + Convert.ToInt32(Plugin.curse.connected.slot_data["gift_item_start"])))
                     {
-                        if (GameManager.System.Player.hunie < Convert.ToInt32(Plugin.curse.connected.slot_data["hunie_gift_cost"]))
+                        if (GameManager.System.Player.hunie < hunie)
                         {
                             text += "[[Not enough Hunie to order.]stop]";
                         }
                         else
                         {
-                            text += $"[[Click to order ({Convert.ToInt32(Plugin.curse.connected.slot_data["hunie_gift_cost"])} Hunie).]go]";
+                            text += $"[[Click to order ({hunie} Hunie).]go]";
                         }
                     }
                     else
@@ -64,6 +89,10 @@ namespace HuniePopArchiepelagoClient.HuniePop.UI
                 __instance.nameLabel.SetColor(ColorUtils.HexToColor("9E6B21"));
                 __instance.typeLabel.SetColor(ColorUtils.HexToColor("B3884F"));
 
+                int hunie = -1;
+                if (CursedArchipelagoClient.gifthunniecost.Keys.Contains(____itemDefinition.id)) { hunie = CursedArchipelagoClient.gifthunniecost[____itemDefinition.id]; }
+                else { hunie = 99999; }
+
                 if (____collectionItem && GameManager.System.Player.endingSceneShown)
                 {
                     string text = "";
@@ -78,13 +107,13 @@ namespace HuniePopArchiepelagoClient.HuniePop.UI
                     }
                     else if (CursedArchipelagoClient.alist.hasitem(IDs.giftidtooffset(____itemDefinition.id) + Convert.ToInt32(Plugin.curse.connected.slot_data["gift_item_start"])))
                     {
-                        if (GameManager.System.Player.hunie < Convert.ToInt32(Plugin.curse.connected.slot_data["hunie_gift_cost"]))
+                        if (GameManager.System.Player.hunie < hunie)
                         {
                             text += "[[Not enough Hunie to order.]stop]";
                         }
                         else
                         {
-                            text += $"[[Click to order ({Convert.ToInt32(Plugin.curse.connected.slot_data["hunie_gift_cost"])} Hunie).]go]";
+                            text += $"[[Click to order ({hunie} Hunie).]go]";
                         }
                     }
                     else

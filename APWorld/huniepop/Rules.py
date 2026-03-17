@@ -124,7 +124,7 @@ def set_rules(multiworld, player, girls, girldata, goal):
                 forbid_items_for_player(multiworld.get_location("given kyu venus's panties", player), {"Unlock Girl(kyu)", "venus's panties"}, player)
 
 
-    if goal:
+    if goal == 1:
         set_rule(multiworld.get_location("Give kyu all available panties", player), lambda state: state.has_all(panties, player) and state.has(f"Unlock Girl(kyu)", player))
     else:
         set_rule(multiworld.get_location("Sleep with all girls", player), lambda state: state.has_all(girlsset, player))

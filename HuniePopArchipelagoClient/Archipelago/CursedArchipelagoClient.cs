@@ -24,6 +24,14 @@ namespace HuniePopArchiepelagoClient.Archipelago
 
         public static Dictionary<int, GirlDefinition> girldata;
 
+        public static Dictionary<int, int> giftshopcost;
+        public static Dictionary<int, int> gifthunniecost;
+        public static Dictionary<string, int> archshopcost;
+        public static Dictionary<int, int> dateshopcost;
+
+        public static int deathlink = -1;
+        public static List<BouncedPacket> deathlinkdeaths = [];
+
         public string seed = "";
         public string error = null;
 
@@ -109,6 +117,7 @@ namespace HuniePopArchiepelagoClient.Archipelago
             {
                 CursedArchipelagoClient.alist = new ArchipelageItemList();
                 sendJson("{\"cmd\":\"Sync\"}");
+                ArchipelagoConsole.LogMessage("Items reset please move locations to re-process them");
             }
             if (msg == "$sync")
             {
@@ -460,6 +469,22 @@ namespace HuniePopArchiepelagoClient.Archipelago
 
                 setupgirldata();
 
+                giftshopcost = JsonConvert.DeserializeObject<Dictionary<int, int> >(msgjson["slot_data"]["shop_gift_cost"].ToString());
+                gifthunniecost = JsonConvert.DeserializeObject<Dictionary<int, int> >(msgjson["slot_data"]["hunie_gift_cost"].ToString());
+                archshopcost = JsonConvert.DeserializeObject<Dictionary<string, int> >(msgjson["slot_data"]["shop_item_cost"].ToString());
+                dateshopcost = JsonConvert.DeserializeObject<Dictionary<int, int>>(msgjson["slot_data"]["shop_date_gift_cost"].ToString());
+
+                if (Convert.ToInt32(msgjson["slot_data"]["deathlink"].ToString())!=0)
+                {
+                    Plugin.BepinLogger.LogMessage($"DEATHLINK ENABLED ({Convert.ToInt32(msgjson["slot_data"]["deathlink"].ToString())}) SENDING UPDATE PACKET");
+                    deathlink = Convert.ToInt32(msgjson["slot_data"]["deathlink"].ToString());
+                    helper.sendWS(Plugin.curse.ws, $"{{\"cmd\":\"ConnectUpdate\",\"items_handling\":7,\"tags\":[\"AP\",\"DeathLink\"]}}");
+                }
+                else
+                {
+                    Plugin.BepinLogger.LogMessage("DEATHLINK DISABLED DOING NOTHING");
+                }
+
                 Plugin.curse.setupdata();
                 Plugin.curse.recievedconnectedpacket = true;
 
@@ -517,8 +542,23 @@ namespace HuniePopArchiepelagoClient.Archipelago
             }
             else if (cmd == "Bounced")
             {
-                ArchipelagoConsole.LogMessage("Bounced PACKET GOTTEN");
-                ArchipelagoConsole.LogMessage(msg);
+                Plugin.BepinLogger.LogMessage("Bounced PACKET GOTTEN");
+                Plugin.BepinLogger.LogMessage(msg);
+                BouncedPacket p = JsonConvert.DeserializeObject<BouncedPacket>(msg);
+                if (p.tags.Count > 0 && p.tags.Contains("DeathLink"))
+                {
+                    Plugin.BepinLogger.LogMessage("DEATHLINK PACKET GOTTEN");
+                    if (deathlink > 1 && (GameManager.System.GameState == GameState.PUZZLE || deathlink == 3))
+                    {
+                        Plugin.BepinLogger.LogMessage("ADDED DEATHLINK PACKET TO LIST");
+                        deathlinkdeaths.Add(p);
+                    }
+                }
+                else
+                {
+                    ArchipelagoConsole.LogMessage("Unknown Bounced PACKET GOTTEN");
+                    ArchipelagoConsole.LogMessage(msg);
+                }
 
             }
             else if (cmd == "InvalidPacket")

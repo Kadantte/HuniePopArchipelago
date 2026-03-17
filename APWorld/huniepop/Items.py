@@ -305,3 +305,8 @@ item_datapackage = {
     "token_item_start": token_item_start,
     "junk_item_start": junk_item_start,
 }
+
+filler_items = {
+    **junk_item,
+    "Nothing": item_table["Nothing"]
+}

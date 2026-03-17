@@ -3,6 +3,7 @@ using HuniePopArchiepelagoClient.Archipelago;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using UnityEngine;
 
 namespace HuniePopArchiepelagoClient.HuniePop.Girls
@@ -172,7 +173,13 @@ namespace HuniePopArchiepelagoClient.HuniePop.Girls
         [HarmonyPrefix]
         public static bool collectionoverite(GirlProfileCollectionSlot collectionSlot, ref GirlProfileCellApp __instance)
         {
-            int hunie = Convert.ToInt32(Plugin.curse.connected.slot_data["hunie_gift_cost"]);
+            if (collectionSlot.itemDefinition == null) { return true; }
+            if (!(collectionSlot.itemDefinition.type == ItemType.GIFT || collectionSlot.itemDefinition.type == ItemType.UNIQUE_GIFT)) { return true; }
+
+            //int hunie = Convert.ToInt32(Plugin.curse.connected.slot_data["hunie_gift_cost"]);
+            int hunie = -1;
+            if (CursedArchipelagoClient.gifthunniecost.Keys.Contains(collectionSlot.itemDefinition.id)) { hunie = CursedArchipelagoClient.gifthunniecost[collectionSlot.itemDefinition.id]; }
+            else { hunie = 99999; }
 
             //only allow buying if not in date, have inventory slots, has enougth hunie and if the item has already been recieved by the client
             if ((collectionSlot.itemDefinition.type == ItemType.GIFT || collectionSlot.itemDefinition.type == ItemType.UNIQUE_GIFT) &&
@@ -198,13 +205,21 @@ namespace HuniePopArchiepelagoClient.HuniePop.Girls
         [HarmonyPrefix]
         public static bool collectionoverite2(GirlProfileCollectionSlot __instance)
         {
+
+            if (__instance.itemDefinition == null) { return true; }
+            if (!(__instance.itemDefinition.type == ItemType.GIFT || __instance.itemDefinition.type == ItemType.UNIQUE_GIFT)) { return true; }
+
+            int hunie = -1;
+            if (CursedArchipelagoClient.gifthunniecost.Keys.Contains(__instance.itemDefinition.id)) { hunie = CursedArchipelagoClient.gifthunniecost[__instance.itemDefinition.id]; }
+            else { hunie = 99999; }
+
             //only enable button if not in date, have inventory slots, has enougth hunie and if the item has already been recieved by the client
             if (__instance.itemDefinition != null &&
                 (__instance.itemDefinition.type == ItemType.GIFT || __instance.itemDefinition.type == ItemType.UNIQUE_GIFT) &&
                 GameManager.System.GameState == GameState.SIM &&
                 GameManager.System.Player.endingSceneShown &&
                 !GameManager.System.Player.IsInventoryFull(GameManager.System.Player.inventory) &&
-                GameManager.System.Player.hunie >= Convert.ToInt32(Plugin.curse.connected.slot_data["hunie_gift_cost"]) &&
+                GameManager.System.Player.hunie >= hunie &&
                 CursedArchipelagoClient.alist.hasitem(IDs.giftidtooffset(__instance.itemDefinition.id) + Convert.ToInt32(Plugin.curse.connected.slot_data["gift_item_start"])))
             {
                 __instance.button.Enable();

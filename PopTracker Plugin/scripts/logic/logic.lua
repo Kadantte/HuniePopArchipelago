@@ -13,3 +13,12 @@ function has_more_then_n_consumable(n)
     end
     return 0 -- 0 => no access
 end
+
+function girl_gift_id(girl, giftslot, giftid)
+    local count = Tracker:ProviderCountForCode(girl..' gift'..giftslot)
+    local val = (count == tonumber(giftid))
+    if val then
+        return 1 -- 1 => access is in logic
+    end
+    return 0 -- 0 => no access
+end

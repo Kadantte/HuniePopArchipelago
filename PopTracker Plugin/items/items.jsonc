@@ -1056,4 +1056,2313 @@
       "codes":"progressive luck lv-up"
     },
 
+
+
+
+
+    {
+      "name": "aiko gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 55,
+      "codes":"aiko gift1"
+    },
+    {
+      "name": "aiko gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 56,
+      "codes":"aiko gift2"
+    },
+    {
+      "name": "aiko gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 57,
+      "codes":"aiko gift3"
+    },
+    {
+      "name": "aiko gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 58,
+      "codes":"aiko gift4"
+    },
+    {
+      "name": "aiko gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 59,
+      "codes":"aiko gift5"
+    },
+    {
+      "name": "aiko gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 60,
+      "codes":"aiko gift6"
+    },
+    {
+      "name": "aiko gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 79,
+      "codes":"aiko gift7"
+    },
+    {
+      "name": "aiko gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 80,
+      "codes":"aiko gift8"
+    },
+    {
+      "name": "aiko gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 81,
+      "codes":"aiko gift9"
+    },
+    {
+      "name": "aiko gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 82,
+      "codes":"aiko gift10"
+    },
+    {
+      "name": "aiko gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 83,
+      "codes":"aiko gift11"
+    },
+    {
+      "name": "aiko gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 84,
+      "codes":"aiko gift12"
+    },
+    {
+      "name": "aiko gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 115,
+      "codes":"aiko gift13"
+    },
+    {
+      "name": "aiko gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 116,
+      "codes":"aiko gift14"
+    },
+    {
+      "name": "aiko gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 117,
+      "codes":"aiko gift15"
+    },
+    {
+      "name": "aiko gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 118,
+      "codes":"aiko gift16"
+    },
+    {
+      "name": "aiko gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 119,
+      "codes":"aiko gift17"
+    },
+    {
+      "name": "aiko gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 120,
+      "codes":"aiko gift18"
+    },
+    {
+      "name": "aiko gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 199,
+      "codes":"aiko gift19"
+    },
+    {
+      "name": "aiko gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 200,
+      "codes":"aiko gift20"
+    },
+    {
+      "name": "aiko gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 201,
+      "codes":"aiko gift21"
+    },
+    {
+      "name": "aiko gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 202,
+      "codes":"aiko gift22"
+    },
+    {
+      "name": "aiko gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 203,
+      "codes":"aiko gift23"
+    },
+    {
+      "name": "aiko gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 204,
+      "codes":"aiko gift24"
+    },
+    {
+      "name": "audrey gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 67,
+      "codes":"audrey gift1"
+    },
+    {
+      "name": "audrey gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 68,
+      "codes":"audrey gift2"
+    },
+    {
+      "name": "audrey gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 69,
+      "codes":"audrey gift3"
+    },
+    {
+      "name": "audrey gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 70,
+      "codes":"audrey gift4"
+    },
+    {
+      "name": "audrey gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 71,
+      "codes":"audrey gift5"
+    },
+    {
+      "name": "audrey gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 72,
+      "codes":"audrey gift6"
+    },
+    {
+      "name": "audrey gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 55,
+      "codes":"audrey gift7"
+    },
+    {
+      "name": "audrey gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 56,
+      "codes":"audrey gift8"
+    },
+    {
+      "name": "audrey gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 57,
+      "codes":"audrey gift9"
+    },
+    {
+      "name": "audrey gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 58,
+      "codes":"audrey gift10"
+    },
+    {
+      "name": "audrey gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 59,
+      "codes":"audrey gift11"
+    },
+    {
+      "name": "audrey gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 60,
+      "codes":"audrey gift12"
+    },
+    {
+      "name": "audrey gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 103,
+      "codes":"audrey gift13"
+    },
+    {
+      "name": "audrey gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 104,
+      "codes":"audrey gift14"
+    },
+    {
+      "name": "audrey gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 105,
+      "codes":"audrey gift15"
+    },
+    {
+      "name": "audrey gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 106,
+      "codes":"audrey gift16"
+    },
+    {
+      "name": "audrey gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 107,
+      "codes":"audrey gift17"
+    },
+    {
+      "name": "audrey gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 108,
+      "codes":"audrey gift18"
+    },
+    {
+      "name": "audrey gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 211,
+      "codes":"audrey gift19"
+    },
+    {
+      "name": "audrey gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 212,
+      "codes":"audrey gift20"
+    },
+    {
+      "name": "audrey gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 213,
+      "codes":"audrey gift21"
+    },
+    {
+      "name": "audrey gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 214,
+      "codes":"audrey gift22"
+    },
+    {
+      "name": "audrey gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 215,
+      "codes":"audrey gift23"
+    },
+    {
+      "name": "audrey gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 216,
+      "codes":"audrey gift24"
+    },
+    {
+      "name": "beli gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 91,
+      "codes":"beli gift1"
+    },
+    {
+      "name": "beli gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 92,
+      "codes":"beli gift2"
+    },
+    {
+      "name": "beli gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 93,
+      "codes":"beli gift3"
+    },
+    {
+      "name": "beli gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 94,
+      "codes":"beli gift4"
+    },
+    {
+      "name": "beli gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 95,
+      "codes":"beli gift5"
+    },
+    {
+      "name": "beli gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 96,
+      "codes":"beli gift6"
+    },
+    {
+      "name": "beli gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 73,
+      "codes":"beli gift7"
+    },
+    {
+      "name": "beli gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 74,
+      "codes":"beli gift8"
+    },
+    {
+      "name": "beli gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 75,
+      "codes":"beli gift9"
+    },
+    {
+      "name": "beli gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 76,
+      "codes":"beli gift10"
+    },
+    {
+      "name": "beli gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 77,
+      "codes":"beli gift11"
+    },
+    {
+      "name": "beli gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 78,
+      "codes":"beli gift12"
+    },
+    {
+      "name": "beli gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 115,
+      "codes":"beli gift13"
+    },
+    {
+      "name": "beli gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 116,
+      "codes":"beli gift14"
+    },
+    {
+      "name": "beli gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 117,
+      "codes":"beli gift15"
+    },
+    {
+      "name": "beli gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 118,
+      "codes":"beli gift16"
+    },
+    {
+      "name": "beli gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 119,
+      "codes":"beli gift17"
+    },
+    {
+      "name": "beli gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 120,
+      "codes":"beli gift18"
+    },
+    {
+      "name": "beli gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 235,
+      "codes":"beli gift19"
+    },
+    {
+      "name": "beli gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 236,
+      "codes":"beli gift20"
+    },
+    {
+      "name": "beli gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 237,
+      "codes":"beli gift21"
+    },
+    {
+      "name": "beli gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 238,
+      "codes":"beli gift22"
+    },
+    {
+      "name": "beli gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 239,
+      "codes":"beli gift23"
+    },
+    {
+      "name": "beli gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 240,
+      "codes":"beli gift24"
+    },
+    {
+      "name": "celeste gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 109,
+      "codes":"celeste gift1"
+    },
+    {
+      "name": "celeste gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 110,
+      "codes":"celeste gift2"
+    },
+    {
+      "name": "celeste gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 111,
+      "codes":"celeste gift3"
+    },
+    {
+      "name": "celeste gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 112,
+      "codes":"celeste gift4"
+    },
+    {
+      "name": "celeste gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 113,
+      "codes":"celeste gift5"
+    },
+    {
+      "name": "celeste gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 114,
+      "codes":"celeste gift6"
+    },
+    {
+      "name": "celeste gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 49,
+      "codes":"celeste gift7"
+    },
+    {
+      "name": "celeste gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 50,
+      "codes":"celeste gift8"
+    },
+    {
+      "name": "celeste gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 51,
+      "codes":"celeste gift9"
+    },
+    {
+      "name": "celeste gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 52,
+      "codes":"celeste gift10"
+    },
+    {
+      "name": "celeste gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 53,
+      "codes":"celeste gift11"
+    },
+    {
+      "name": "celeste gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 54,
+      "codes":"celeste gift12"
+    },
+    {
+      "name": "celeste gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 61,
+      "codes":"celeste gift13"
+    },
+    {
+      "name": "celeste gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 62,
+      "codes":"celeste gift14"
+    },
+    {
+      "name": "celeste gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 63,
+      "codes":"celeste gift15"
+    },
+    {
+      "name": "celeste gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 64,
+      "codes":"celeste gift16"
+    },
+    {
+      "name": "celeste gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 65,
+      "codes":"celeste gift17"
+    },
+    {
+      "name": "celeste gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 66,
+      "codes":"celeste gift18"
+    },
+    {
+      "name": "celeste gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 253,
+      "codes":"celeste gift19"
+    },
+    {
+      "name": "celeste gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 254,
+      "codes":"celeste gift20"
+    },
+    {
+      "name": "celeste gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 255,
+      "codes":"celeste gift21"
+    },
+    {
+      "name": "celeste gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 256,
+      "codes":"celeste gift22"
+    },
+    {
+      "name": "celeste gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 257,
+      "codes":"celeste gift23"
+    },
+    {
+      "name": "celeste gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 258,
+      "codes":"celeste gift24"
+    },
+    {
+      "name": "jessie gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 85,
+      "codes":"jessie gift1"
+    },
+    {
+      "name": "jessie gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 86,
+      "codes":"jessie gift2"
+    },
+    {
+      "name": "jessie gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 87,
+      "codes":"jessie gift3"
+    },
+    {
+      "name": "jessie gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 88,
+      "codes":"jessie gift4"
+    },
+    {
+      "name": "jessie gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 89,
+      "codes":"jessie gift5"
+    },
+    {
+      "name": "jessie gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 90,
+      "codes":"jessie gift6"
+    },
+    {
+      "name": "jessie gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 61,
+      "codes":"jessie gift7"
+    },
+    {
+      "name": "jessie gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 62,
+      "codes":"jessie gift8"
+    },
+    {
+      "name": "jessie gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 63,
+      "codes":"jessie gift9"
+    },
+    {
+      "name": "jessie gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 64,
+      "codes":"jessie gift10"
+    },
+    {
+      "name": "jessie gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 65,
+      "codes":"jessie gift11"
+    },
+    {
+      "name": "jessie gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 66,
+      "codes":"jessie gift12"
+    },
+    {
+      "name": "jessie gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 97,
+      "codes":"jessie gift13"
+    },
+    {
+      "name": "jessie gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 98,
+      "codes":"jessie gift14"
+    },
+    {
+      "name": "jessie gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 99,
+      "codes":"jessie gift15"
+    },
+    {
+      "name": "jessie gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 100,
+      "codes":"jessie gift16"
+    },
+    {
+      "name": "jessie gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 101,
+      "codes":"jessie gift17"
+    },
+    {
+      "name": "jessie gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 102,
+      "codes":"jessie gift18"
+    },
+    {
+      "name": "jessie gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 229,
+      "codes":"jessie gift19"
+    },
+    {
+      "name": "jessie gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 230,
+      "codes":"jessie gift20"
+    },
+    {
+      "name": "jessie gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 231,
+      "codes":"jessie gift21"
+    },
+    {
+      "name": "jessie gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 232,
+      "codes":"jessie gift22"
+    },
+    {
+      "name": "jessie gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 233,
+      "codes":"jessie gift23"
+    },
+    {
+      "name": "jessie gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 234,
+      "codes":"jessie gift24"
+    },
+    {
+      "name": "kyanna gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 61,
+      "codes":"kyanna gift1"
+    },
+    {
+      "name": "kyanna gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 62,
+      "codes":"kyanna gift2"
+    },
+    {
+      "name": "kyanna gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 63,
+      "codes":"kyanna gift3"
+    },
+    {
+      "name": "kyanna gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 64,
+      "codes":"kyanna gift4"
+    },
+    {
+      "name": "kyanna gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 65,
+      "codes":"kyanna gift5"
+    },
+    {
+      "name": "kyanna gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 66,
+      "codes":"kyanna gift6"
+    },
+    {
+      "name": "kyanna gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 91,
+      "codes":"kyanna gift7"
+    },
+    {
+      "name": "kyanna gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 92,
+      "codes":"kyanna gift8"
+    },
+    {
+      "name": "kyanna gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 93,
+      "codes":"kyanna gift9"
+    },
+    {
+      "name": "kyanna gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 94,
+      "codes":"kyanna gift10"
+    },
+    {
+      "name": "kyanna gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 95,
+      "codes":"kyanna gift11"
+    },
+    {
+      "name": "kyanna gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 96,
+      "codes":"kyanna gift12"
+    },
+    {
+      "name": "kyanna gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 97,
+      "codes":"kyanna gift13"
+    },
+    {
+      "name": "kyanna gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 98,
+      "codes":"kyanna gift14"
+    },
+    {
+      "name": "kyanna gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 99,
+      "codes":"kyanna gift15"
+    },
+    {
+      "name": "kyanna gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 100,
+      "codes":"kyanna gift16"
+    },
+    {
+      "name": "kyanna gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 101,
+      "codes":"kyanna gift17"
+    },
+    {
+      "name": "kyanna gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 102,
+      "codes":"kyanna gift18"
+    },
+    {
+      "name": "kyanna gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 205,
+      "codes":"kyanna gift19"
+    },
+    {
+      "name": "kyanna gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 206,
+      "codes":"kyanna gift20"
+    },
+    {
+      "name": "kyanna gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 207,
+      "codes":"kyanna gift21"
+    },
+    {
+      "name": "kyanna gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 208,
+      "codes":"kyanna gift22"
+    },
+    {
+      "name": "kyanna gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 209,
+      "codes":"kyanna gift23"
+    },
+    {
+      "name": "kyanna gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 210,
+      "codes":"kyanna gift24"
+    },
+    {
+      "name": "kyu gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 97,
+      "codes":"kyu gift1"
+    },
+    {
+      "name": "kyu gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 98,
+      "codes":"kyu gift2"
+    },
+    {
+      "name": "kyu gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 99,
+      "codes":"kyu gift3"
+    },
+    {
+      "name": "kyu gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 100,
+      "codes":"kyu gift4"
+    },
+    {
+      "name": "kyu gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 101,
+      "codes":"kyu gift5"
+    },
+    {
+      "name": "kyu gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 102,
+      "codes":"kyu gift6"
+    },
+    {
+      "name": "kyu gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 67,
+      "codes":"kyu gift7"
+    },
+    {
+      "name": "kyu gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 68,
+      "codes":"kyu gift8"
+    },
+    {
+      "name": "kyu gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 69,
+      "codes":"kyu gift9"
+    },
+    {
+      "name": "kyu gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 70,
+      "codes":"kyu gift10"
+    },
+    {
+      "name": "kyu gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 71,
+      "codes":"kyu gift11"
+    },
+    {
+      "name": "kyu gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 72,
+      "codes":"kyu gift12"
+    },
+    {
+      "name": "kyu gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 79,
+      "codes":"kyu gift13"
+    },
+    {
+      "name": "kyu gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 80,
+      "codes":"kyu gift14"
+    },
+    {
+      "name": "kyu gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 81,
+      "codes":"kyu gift15"
+    },
+    {
+      "name": "kyu gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 82,
+      "codes":"kyu gift16"
+    },
+    {
+      "name": "kyu gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 83,
+      "codes":"kyu gift17"
+    },
+    {
+      "name": "kyu gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 84,
+      "codes":"kyu gift18"
+    },
+    {
+      "name": "kyu gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 241,
+      "codes":"kyu gift19"
+    },
+    {
+      "name": "kyu gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 242,
+      "codes":"kyu gift20"
+    },
+    {
+      "name": "kyu gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 243,
+      "codes":"kyu gift21"
+    },
+    {
+      "name": "kyu gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 244,
+      "codes":"kyu gift22"
+    },
+    {
+      "name": "kyu gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 245,
+      "codes":"kyu gift23"
+    },
+    {
+      "name": "kyu gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 246,
+      "codes":"kyu gift24"
+    },
+    {
+      "name": "lola gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 73,
+      "codes":"lola gift1"
+    },
+    {
+      "name": "lola gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 74,
+      "codes":"lola gift2"
+    },
+    {
+      "name": "lola gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 75,
+      "codes":"lola gift3"
+    },
+    {
+      "name": "lola gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 76,
+      "codes":"lola gift4"
+    },
+    {
+      "name": "lola gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 77,
+      "codes":"lola gift5"
+    },
+    {
+      "name": "lola gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 78,
+      "codes":"lola gift6"
+    },
+    {
+      "name": "lola gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 85,
+      "codes":"lola gift7"
+    },
+    {
+      "name": "lola gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 86,
+      "codes":"lola gift8"
+    },
+    {
+      "name": "lola gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 87,
+      "codes":"lola gift9"
+    },
+    {
+      "name": "lola gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 88,
+      "codes":"lola gift10"
+    },
+    {
+      "name": "lola gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 89,
+      "codes":"lola gift11"
+    },
+    {
+      "name": "lola gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 90,
+      "codes":"lola gift12"
+    },
+    {
+      "name": "lola gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 109,
+      "codes":"lola gift13"
+    },
+    {
+      "name": "lola gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 110,
+      "codes":"lola gift14"
+    },
+    {
+      "name": "lola gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 111,
+      "codes":"lola gift15"
+    },
+    {
+      "name": "lola gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 112,
+      "codes":"lola gift16"
+    },
+    {
+      "name": "lola gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 113,
+      "codes":"lola gift17"
+    },
+    {
+      "name": "lola gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 114,
+      "codes":"lola gift18"
+    },
+    {
+      "name": "lola gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 217,
+      "codes":"lola gift19"
+    },
+    {
+      "name": "lola gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 218,
+      "codes":"lola gift20"
+    },
+    {
+      "name": "lola gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 219,
+      "codes":"lola gift21"
+    },
+    {
+      "name": "lola gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 220,
+      "codes":"lola gift22"
+    },
+    {
+      "name": "lola gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 221,
+      "codes":"lola gift23"
+    },
+    {
+      "name": "lola gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 222,
+      "codes":"lola gift24"
+    },
+    {
+      "name": "momo gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 103,
+      "codes":"momo gift1"
+    },
+    {
+      "name": "momo gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 104,
+      "codes":"momo gift2"
+    },
+    {
+      "name": "momo gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 105,
+      "codes":"momo gift3"
+    },
+    {
+      "name": "momo gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 106,
+      "codes":"momo gift4"
+    },
+    {
+      "name": "momo gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 107,
+      "codes":"momo gift5"
+    },
+    {
+      "name": "momo gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 108,
+      "codes":"momo gift6"
+    },
+    {
+      "name": "momo gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 55,
+      "codes":"momo gift7"
+    },
+    {
+      "name": "momo gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 56,
+      "codes":"momo gift8"
+    },
+    {
+      "name": "momo gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 57,
+      "codes":"momo gift9"
+    },
+    {
+      "name": "momo gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 58,
+      "codes":"momo gift10"
+    },
+    {
+      "name": "momo gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 59,
+      "codes":"momo gift11"
+    },
+    {
+      "name": "momo gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 60,
+      "codes":"momo gift12"
+    },
+    {
+      "name": "momo gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 73,
+      "codes":"momo gift13"
+    },
+    {
+      "name": "momo gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 74,
+      "codes":"momo gift14"
+    },
+    {
+      "name": "momo gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 75,
+      "codes":"momo gift15"
+    },
+    {
+      "name": "momo gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 76,
+      "codes":"momo gift16"
+    },
+    {
+      "name": "momo gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 77,
+      "codes":"momo gift17"
+    },
+    {
+      "name": "momo gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 78,
+      "codes":"momo gift18"
+    },
+    {
+      "name": "momo gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 247,
+      "codes":"momo gift19"
+    },
+    {
+      "name": "momo gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 248,
+      "codes":"momo gift20"
+    },
+    {
+      "name": "momo gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 249,
+      "codes":"momo gift21"
+    },
+    {
+      "name": "momo gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 250,
+      "codes":"momo gift22"
+    },
+    {
+      "name": "momo gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 251,
+      "codes":"momo gift23"
+    },
+    {
+      "name": "momo gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 252,
+      "codes":"momo gift24"
+    },
+    {
+      "name": "nikki gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 79,
+      "codes":"nikki gift1"
+    },
+    {
+      "name": "nikki gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 80,
+      "codes":"nikki gift2"
+    },
+    {
+      "name": "nikki gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 81,
+      "codes":"nikki gift3"
+    },
+    {
+      "name": "nikki gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 82,
+      "codes":"nikki gift4"
+    },
+    {
+      "name": "nikki gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 83,
+      "codes":"nikki gift5"
+    },
+    {
+      "name": "nikki gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 84,
+      "codes":"nikki gift6"
+    },
+    {
+      "name": "nikki gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 49,
+      "codes":"nikki gift7"
+    },
+    {
+      "name": "nikki gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 50,
+      "codes":"nikki gift8"
+    },
+    {
+      "name": "nikki gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 51,
+      "codes":"nikki gift9"
+    },
+    {
+      "name": "nikki gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 52,
+      "codes":"nikki gift10"
+    },
+    {
+      "name": "nikki gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 53,
+      "codes":"nikki gift11"
+    },
+    {
+      "name": "nikki gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 54,
+      "codes":"nikki gift12"
+    },
+    {
+      "name": "nikki gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 103,
+      "codes":"nikki gift13"
+    },
+    {
+      "name": "nikki gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 104,
+      "codes":"nikki gift14"
+    },
+    {
+      "name": "nikki gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 105,
+      "codes":"nikki gift15"
+    },
+    {
+      "name": "nikki gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 106,
+      "codes":"nikki gift16"
+    },
+    {
+      "name": "nikki gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 107,
+      "codes":"nikki gift17"
+    },
+    {
+      "name": "nikki gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 108,
+      "codes":"nikki gift18"
+    },
+    {
+      "name": "nikki gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 223,
+      "codes":"nikki gift19"
+    },
+    {
+      "name": "nikki gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 224,
+      "codes":"nikki gift20"
+    },
+    {
+      "name": "nikki gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 225,
+      "codes":"nikki gift21"
+    },
+    {
+      "name": "nikki gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 226,
+      "codes":"nikki gift22"
+    },
+    {
+      "name": "nikki gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 227,
+      "codes":"nikki gift23"
+    },
+    {
+      "name": "nikki gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 228,
+      "codes":"nikki gift24"
+    },
+    {
+      "name": "tiffany gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 49,
+      "codes":"tiffany gift1"
+    },
+    {
+      "name": "tiffany gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 50,
+      "codes":"tiffany gift2"
+    },
+    {
+      "name": "tiffany gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 51,
+      "codes":"tiffany gift3"
+    },
+    {
+      "name": "tiffany gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 52,
+      "codes":"tiffany gift4"
+    },
+    {
+      "name": "tiffany gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 53,
+      "codes":"tiffany gift5"
+    },
+    {
+      "name": "tiffany gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 54,
+      "codes":"tiffany gift6"
+    },
+    {
+      "name": "tiffany gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 67,
+      "codes":"tiffany gift7"
+    },
+    {
+      "name": "tiffany gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 68,
+      "codes":"tiffany gift8"
+    },
+    {
+      "name": "tiffany gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 69,
+      "codes":"tiffany gift9"
+    },
+    {
+      "name": "tiffany gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 70,
+      "codes":"tiffany gift10"
+    },
+    {
+      "name": "tiffany gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 71,
+      "codes":"tiffany gift11"
+    },
+    {
+      "name": "tiffany gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 72,
+      "codes":"tiffany gift12"
+    },
+    {
+      "name": "tiffany gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 109,
+      "codes":"tiffany gift13"
+    },
+    {
+      "name": "tiffany gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 110,
+      "codes":"tiffany gift14"
+    },
+    {
+      "name": "tiffany gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 111,
+      "codes":"tiffany gift15"
+    },
+    {
+      "name": "tiffany gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 112,
+      "codes":"tiffany gift16"
+    },
+    {
+      "name": "tiffany gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 113,
+      "codes":"tiffany gift17"
+    },
+    {
+      "name": "tiffany gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 114,
+      "codes":"tiffany gift18"
+    },
+    {
+      "name": "tiffany gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 193,
+      "codes":"tiffany gift19"
+    },
+    {
+      "name": "tiffany gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 194,
+      "codes":"tiffany gift20"
+    },
+    {
+      "name": "tiffany gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 195,
+      "codes":"tiffany gift21"
+    },
+    {
+      "name": "tiffany gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 196,
+      "codes":"tiffany gift22"
+    },
+    {
+      "name": "tiffany gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 197,
+      "codes":"tiffany gift23"
+    },
+    {
+      "name": "tiffany gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 198,
+      "codes":"tiffany gift24"
+    },
+    {
+      "name": "venus gift1",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 115,
+      "codes":"venus gift1"
+    },
+    {
+      "name": "venus gift2",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 116,
+      "codes":"venus gift2"
+    },
+    {
+      "name": "venus gift3",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 117,
+      "codes":"venus gift3"
+    },
+    {
+      "name": "venus gift4",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 118,
+      "codes":"venus gift4"
+    },
+    {
+      "name": "venus gift5",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 119,
+      "codes":"venus gift5"
+    },
+    {
+      "name": "venus gift6",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 120,
+      "codes":"venus gift6"
+    },
+    {
+      "name": "venus gift7",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 85,
+      "codes":"venus gift7"
+    },
+    {
+      "name": "venus gift8",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 86,
+      "codes":"venus gift8"
+    },
+    {
+      "name": "venus gift9",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 87,
+      "codes":"venus gift9"
+    },
+    {
+      "name": "venus gift10",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 88,
+      "codes":"venus gift10"
+    },
+    {
+      "name": "venus gift11",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 89,
+      "codes":"venus gift11"
+    },
+    {
+      "name": "venus gift12",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 90,
+      "codes":"venus gift12"
+    },
+    {
+      "name": "venus gift13",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 91,
+      "codes":"venus gift13"
+    },
+    {
+      "name": "venus gift14",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 92,
+      "codes":"venus gift14"
+    },
+    {
+      "name": "venus gift15",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 93,
+      "codes":"venus gift15"
+    },
+    {
+      "name": "venus gift16",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 94,
+      "codes":"venus gift16"
+    },
+    {
+      "name": "venus gift17",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 95,
+      "codes":"venus gift17"
+    },
+    {
+      "name": "venus gift18",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 96,
+      "codes":"venus gift18"
+    },
+    {
+      "name": "venus gift19",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 259,
+      "codes":"venus gift19"
+    },
+    {
+      "name": "venus gift20",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 260,
+      "codes":"venus gift20"
+    },
+    {
+      "name": "venus gift21",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 261,
+      "codes":"venus gift21"
+    },
+    {
+      "name": "venus gift22",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 262,
+      "codes":"venus gift22"
+    },
+    {
+      "name": "venus gift23",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 263,
+      "codes":"venus gift23"
+    },
+    {
+      "name": "venus gift24",        
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 280,
+      "initial_quantity": 264,
+      "codes":"venus gift24"
+    }
+
 ]
