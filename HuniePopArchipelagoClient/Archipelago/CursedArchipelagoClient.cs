@@ -550,8 +550,15 @@ namespace HuniePopArchiepelagoClient.Archipelago
                     Plugin.BepinLogger.LogMessage("DEATHLINK PACKET GOTTEN");
                     if (deathlink > 1 && (GameManager.System.GameState == GameState.PUZZLE || deathlink == 3))
                     {
-                        Plugin.BepinLogger.LogMessage("ADDED DEATHLINK PACKET TO LIST");
-                        deathlinkdeaths.Add(p);
+                        if (p.data.ContainsKey("source") && p.data["source"] == Plugin.curse.username)
+                        {
+                            Plugin.BepinLogger.LogMessage("DEATHLINK PACKET SKIPPED (SAME SOURCE)");
+                        }
+                        else
+                        {
+                            Plugin.BepinLogger.LogMessage("ADDED DEATHLINK PACKET TO LIST");
+                            deathlinkdeaths.Add(p);
+                        }
                     }
                 }
                 else
