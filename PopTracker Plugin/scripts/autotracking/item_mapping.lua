@@ -260,7 +260,8 @@ ITEM_MAPPING = {
 	--[259] = {{"Rose Perfume", "toggle"}},
 	--[260] = {{"Lilac Perfume", "toggle"}},
 	--[261] = {{"Nothing", "toggle"}},
-	--[262] = {{"Goal Achieved", "toggle"}},
+	[262] = {{"progressive Date Pass", "consumable"}},
+	--[263] = {{"Goal Achieved", "toggle"}},
 }
 
 GIFT_MAPPING = {

@@ -116,6 +116,14 @@ function apply_slot_data(slot_data)
             end
         end
     end
+
+	if slot_data["progressive_dates"] == 0 then
+		local date = Tracker:FindObjectForCode("progressive Date Pass")
+		if date then
+			date.AcquiredCount = 5
+		end
+	end
+    --print("SLOT DATA END")
 end
 
 function resetloc(girl, slot, id)

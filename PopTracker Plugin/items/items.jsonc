@@ -1058,6 +1058,18 @@
 
 
 
+    {
+      "name": "progressive Date Pass",
+      "type": "consumable",
+      "min_quantity": 0,
+      "max_quantity": 5,
+      "initial_quantity": 0,
+      "img": "images/date.png",
+      "codes":"progressive Date Pass"
+    },
+
+
+
 
 
     {

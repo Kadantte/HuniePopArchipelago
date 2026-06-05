@@ -68,6 +68,24 @@ namespace HuniePopArchiepelagoClient.HuniePop.Gameplay
             deathprocessing = false;
         }
 
+
+        public static int? junkloc;
+
+        /// <summary>
+        /// disable bonus round when you dont have date pass for it when playing with progressive dates
+        /// </summary>
+        [HarmonyPatch(typeof(PuzzleManager), "OnPuzzleGameComplete")]
+        [HarmonyPostfix]
+        public static void datefin2(PuzzleManager __instance, ref bool ____goToBonusRound)
+        {
+            junkloc ??= Convert.ToInt32(Plugin.curse.connected.slot_data["junk_item_start"]);
+
+            if (____goToBonusRound && Convert.ToBoolean(Plugin.curse.connected.slot_data["progressive_dates"]))
+            {
+                if (!CursedArchipelagoClient.alist.hasitemcount((long)(junkloc + 86), 5)) { ____goToBonusRound = false; }
+            }
+        }
+
         /// <summary>
         /// NOP instructions for when completeing a puzzle for getting panties
         /// </summary>

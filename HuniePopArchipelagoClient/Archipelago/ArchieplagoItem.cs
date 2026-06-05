@@ -45,14 +45,8 @@ namespace HuniePopArchiepelagoClient.Archipelago
                 }
             }
             this.playername = playername;
-            if (this.LocationId <= 0)
-            {
-                this.locationname = "SERVER";
-            }
-            else
-            {
-                this.locationname = Plugin.curse.data.data.games[game].idtolocation[item.location];
-            }
+            if (this.LocationId <= 0) { this.locationname = "SERVER"; }
+            else { this.locationname = Plugin.curse.data.data.games[game].idtolocation[item.location]; }
         }
 
         public ArchipelagoItem()
@@ -64,10 +58,10 @@ namespace HuniePopArchiepelagoClient.Archipelago
 
         public bool equals(ArchipelagoItem i2)
         {
-            if(i2 == null) return false;
-            if(this.Id != i2.Id) return false;
-            if(this.LocationId != i2.LocationId) return false;
-            if(this.playerslot != i2.playerslot) return false;
+            if (i2 == null) return false;
+            if (this.Id != i2.Id) return false;
+            if (this.LocationId != i2.LocationId) return false;
+            if (this.playerslot != i2.playerslot) return false;
             return true;
         }
 
@@ -115,10 +109,7 @@ namespace HuniePopArchiepelagoClient.Archipelago
                         break;
                     }
                 }
-                if (f)
-                {
-                    return true;
-                }
+                if (f) { return true; }
             }
 
             return false;
@@ -128,10 +119,28 @@ namespace HuniePopArchiepelagoClient.Archipelago
         {
             for (int i = 0; i < list.Count; i++)
             {
-                if (list[i].Id == flag)
-                {
-                    return true;
-                }
+                if (list[i].Id == flag) { return true; }
+            }
+            return false;
+        }
+
+        public int itemcount(long flag)
+        {
+            int c = 0;
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Id == flag) { c++; }
+            }
+            return c;
+        }
+
+        public bool hasitemcount(long flag, int count)
+        {
+            int c = 0;
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Id == flag) { c++; }
+                if (c >= count) { return true; }
             }
             return false;
         }

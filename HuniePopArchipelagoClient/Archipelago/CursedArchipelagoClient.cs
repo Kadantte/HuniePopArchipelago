@@ -196,6 +196,11 @@ namespace HuniePopArchiepelagoClient.Archipelago
 
                     ArchipelagoConsole.LogMessage($"Number of girls that you have had sex with: {p - offset}");
                     ArchipelagoConsole.LogMessage($"Girls you still need to have sex with: {s}");
+
+                    if (Convert.ToBoolean(Plugin.curse.connected.slot_data["progressive_dates"]))
+                    {
+                        ArchipelagoConsole.LogMessage($"Date Passes Obtained: {alist.itemcount(Convert.ToInt32(Plugin.curse.connected.slot_data["junk_item_start"]) + 86)} of 5");
+                    }
                 }
             }
             if (msg == "$test")
@@ -545,6 +550,13 @@ namespace HuniePopArchiepelagoClient.Archipelago
                 Plugin.BepinLogger.LogMessage("Bounced PACKET GOTTEN");
                 Plugin.BepinLogger.LogMessage(msg);
                 BouncedPacket p = JsonConvert.DeserializeObject<BouncedPacket>(msg);
+
+                if (p.data == null)
+                {
+                    Plugin.BepinLogger.LogMessage("BOUNCED PACKET HAS NO DATA");
+                    return;
+                }
+
                 if (p.tags.Count > 0 && p.tags.Contains("DeathLink"))
                 {
                     Plugin.BepinLogger.LogMessage("DEATHLINK PACKET GOTTEN");
@@ -563,7 +575,7 @@ namespace HuniePopArchiepelagoClient.Archipelago
                 }
                 else
                 {
-                    ArchipelagoConsole.LogMessage("Unknown Bounced PACKET GOTTEN");
+                    ArchipelagoConsole.LogMessage("UNKNOWN BOUNCED PACKET GOTTEN");
                     ArchipelagoConsole.LogMessage(msg);
                 }
 
